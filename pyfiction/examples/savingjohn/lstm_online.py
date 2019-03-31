@@ -13,7 +13,7 @@ An example SSAQN agent for Saving John that uses online learning and prioritized
 """
 
 # Create the agent and specify maximum lengths of descriptions (in words)
-agent = SSAQNAgent(train_simulators=SavingJohnSimulator())
+agent = SSAQNAgent(train_simulators=SavingJohnSimulator(), mode = 'LSTM')
 
 # Learn the vocabulary (the function samples the game using a random policy)
 agent.initialize_tokens('vocabulary.txt')

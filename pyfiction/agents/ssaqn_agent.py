@@ -8,6 +8,7 @@ from collections import deque
 
 import numpy as np
 import re
+import keras
 from keras import Input
 from keras.callbacks import TensorBoard
 from keras.engine import Model
@@ -117,7 +118,7 @@ class SSAQNAgent(agent.Agent):
     This agent class is universal and it should be possible to apply it to different games in the same way
     """
 
-    def __init__(self, train_simulators, test_simulators=None, log_folder='logs', max_words=8192):
+    def __init__(self, train_simulators, test_simulators=None, log_folder='logs', max_words=8192, mode = 'LSTM'):
         """
 
         :param train_simulators:
@@ -163,7 +164,7 @@ class SSAQNAgent(agent.Agent):
 
         self.log_folder = log_folder
         os.makedirs(log_folder, exist_ok=True)
-
+        self.mode = mode
         # visualization
         self.tensorboard = TensorBoard(log_dir='./logs', write_graph=False, write_images=True,
                                        embeddings_freq=1, embeddings_metadata=log_folder + '/embeddings.tsv')
@@ -234,13 +235,19 @@ class SSAQNAgent(agent.Agent):
 
         embedding_state = embedding_shared(input_state)
         embedding_action = embedding_shared(input_action)
-
-        lstm_shared = LSTM(lstm_dimensions, name="lstm_shared")
-        lstm_state = lstm_shared(embedding_state)
-        lstm_action = lstm_shared(embedding_action)
-
-        dense_state = Dense(dense_dimensions, activation='tanh', name="dense_state")(lstm_state)
-        dense_action = Dense(dense_dimensions, activation='tanh', name="dense_action")(lstm_action)
+        
+        if self.mode == 'LSTM':
+            lstm_shared = LSTM(lstm_dimensions, name="lstm_shared")
+            lstm_state = lstm_shared(embedding_state)
+            lstm_action = lstm_shared(embedding_action)
+            dense_state = Dense(dense_dimensions, activation='tanh', name="dense_state")(lstm_state)
+            dense_action = Dense(dense_dimensions, activation='tanh', name="dense_action")(lstm_action)
+        elif self.mode == 'Average':
+            averaging_layer = keras.layers.Lambda(lambda x: keras.backend.mean(x, axis=1))
+            avg_state = averaging_layer(embedding_state)
+            avg_action = averaging_layer(embedding_action)
+            dense_state = Dense(dense_dimensions, activation='tanh', name="dense_state")(avg_state)
+            dense_action = Dense(dense_dimensions, activation='tanh', name="dense_action")(avg_action)
 
         model_state = Model(inputs=input_state, outputs=dense_state, name="state")
         model_action = Model(inputs=input_action, outputs=dense_action, name="action")
