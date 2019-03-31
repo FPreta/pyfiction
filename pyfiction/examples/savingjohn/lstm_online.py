@@ -1,13 +1,12 @@
 import logging
+logging.basicConfig(filename = 'op.txt', filemode = 'w', level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 from keras.optimizers import RMSprop
 from keras.utils import plot_model
 from pyfiction.agents.ssaqn_agent import SSAQNAgent
 from pyfiction.simulators.games.savingjohn_simulator import SavingJohnSimulator
 from pyfiction.simulators.text_games.simulators.MySimulator import StoryNode
-
-logging.basicConfig(level=logging.DEBUG)
-logger = logging.getLogger(__name__)
 
 """
 An example SSAQN agent for Saving John that uses online learning and prioritized sampling
