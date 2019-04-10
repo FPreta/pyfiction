@@ -1,0 +1,19 @@
+Legend:
+
+U: Untrainable. embedding_trainable=False in the model;
+T: Trainable. embedding_trainable=True in the model;
+
+N: Non Pre-trained embeddings. embeddings=None in the model;
+P: Pre-trained embeddings. embeddings=Glove in the model;
+
+AV: Mode="Average" when creating the agent;
+LSTM: Mode="LSTM" when creating the agent;
+
+Games:
+SJ=Saving John
+CS=Cat Simulator 2016
+MOD= Machine of Death
+Six=Six
+SC= Star Court
+TH= Theredhair
+TR=Transit
