@@ -51,3 +51,4 @@ df = pandas.read_csv(sys.argv[2])
 plt.plot("Episode", "Train Rewards", data = df, marker = 'x', color = 'red')
 plt.plot("Episode", "Test Rewards", data = df, marker = 'o', color = 'blue')
 plt.show()
+
