@@ -1,26 +1,25 @@
 import logging
+logging.basicConfig(filename = 'opRedHair.txt', filemode = 'w', level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 from keras.optimizers import RMSprop
 from keras.utils import plot_model
 from pyfiction.agents.ssaqn_agent import SSAQNAgent
 from pyfiction.simulators.games.theredhair_simulator import TheRedHairSimulator
 
-logging.basicConfig(level=logging.DEBUG)
-logger = logging.getLogger(__name__)
-
 """
 An example SSAQN agent for The Red Hair that uses online learning and prioritized sampling
 """
 
 # Create the agent and specify maximum lengths of descriptions (in words)
-agent = SSAQNAgent(train_simulators=TheRedHairSimulator())
+agent = SSAQNAgent(train_simulators=TheRedHairSimulator(), mode = 'Average')
 
 # Learn the vocabulary (the function samples the game using a random policy)
 agent.initialize_tokens('vocabulary.txt')
 
 optimizer = RMSprop(lr=0.0001)
 
-embedding_dimensions = 16
+embedding_dimensions = 300
 lstm_dimensions = 32
 dense_dimensions = 8
 

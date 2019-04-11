@@ -1,5 +1,5 @@
 import logging
-logging.basicConfig(filename = 'op.txt', filemode = 'w', level=logging.INFO)
+logging.basicConfig(filename = 'opSavingJohn.txt', filemode = 'w', level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 from keras.optimizers import RMSprop
@@ -20,7 +20,7 @@ agent.initialize_tokens('vocabulary.txt')
 
 optimizer = RMSprop(lr=0.0001)
 
-embedding_dimensions = 16
+embedding_dimensions = 300
 lstm_dimensions = 32
 dense_dimensions = 8
 
@@ -38,6 +38,9 @@ except ImportError as e:
 # Iteratively train the agent on a batch of previously seen examples while continuously expanding the experience buffer
 # This example seems to converge to the optimal reward of 19.4
 epochs = 1
+
+agent.train_and_report(epochs = 10, episodes = 20, batch_size = 25, test_steps = 5)
+exit(0)
 for i in range(epochs):
     logger.info('Epoch %s', i)
     agent.train_online(episodes=256, batch_size=64, gamma=0.95, epsilon_decay=0.99, prioritized_fraction=0.25)
