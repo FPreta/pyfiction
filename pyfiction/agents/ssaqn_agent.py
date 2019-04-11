@@ -671,6 +671,158 @@ class SSAQNAgent(agent.Agent):
 
         return
 
+    def train_and_report(self, epochs = 10, episodes=256, batch_size=256, gamma=0.95, epsilon=1, epsilon_decay=0.99,
+                     prioritized_fraction=0, test_interval=1, test_steps=1, checkpoint_steps=128, log_prefix=''):
+        """
+        Trains the model while playing at the same time
+        :param log_prefix: file prefix for logs
+        :param test_steps: test the model each N steps on the test simulators
+        :param checkpoint_steps: save the model each N steps
+        :param test_interval: test the agent after each N steps (batches)
+        :param epsilon_decay: rate at which epsilon decays (in each episodes, epsilon *= epsilon_decay)
+        :param epsilon: probability of choosing a random action
+        :param episodes: the maximum number of episodes
+        :param batch_size: number of experiences to be used for training (each is used once)
+        :param gamma: discount factor (higher gamma ~ taking future into account more)
+        :param prioritized_fraction: only sample prioritized experience (final states with higher reward values)
+        :return:
+        """
+
+        train_rewards_history = []
+        test_rewards_history = []
+
+        # batch_prioritized is the number of prioritized samples to get
+        batch_prioritized = int(batch_size * prioritized_fraction)
+        # batch is the number of any samples to get
+        batch = batch_size - batch_prioritized
+        
+        for i in range(epochs):
+            for i in range(episodes):
+
+                logger.info('\n------------------------------------------\nEpisode {}, epsilon = {:.4f}'.format(i, epsilon))
+
+                # Epsilon-greedy train sampling and experience saving (epsilon usually decreasing over time):
+                train_rewards = self.play_game(episodes=1, store_experience=True, epsilon=epsilon,
+                                               simulators=self.train_simulators)
+                train_rewards_history.append(train_rewards)
+                logger.info(
+                    "Train rewards: " +
+                    ", ".join(
+                        " ".join(x for x in ['{:.1f}'.format(reward) for reward in simulator_rewards])
+                        for simulator_rewards in train_rewards)
+                )
+
+                # Test the agent after each test_steps episodes with a zero epsilon
+                """
+                if ((i + 1) % test_interval) == 0:
+                    test_rewards = self.play_game(episodes=test_steps, store_experience=False, epsilon=0,
+                                                  simulators=self.test_simulators)
+                    test_rewards_history.append(test_rewards)
+                    logger.info(
+                        "Test rewards: " +
+                        ", ".join(
+                            " ".join(x for x in ['{:.1f}'.format(reward) for reward in simulator_rewards])
+                            for simulator_rewards in test_rewards)
+                    )
+                """
+                
+                if len(self.experience) < 1:
+                    return
+
+                batches = np.random.choice(len(self.experience), batch)
+
+                if len(self.prioritized_experiences_queue) > 0:
+                    batches_prioritized = np.random.choice(len(self.prioritized_experiences_queue), batch_prioritized)
+                else:
+                    batches_prioritized = np.random.choice(len(self.experience), batch_prioritized)
+
+                states = [None] * batch_size
+                actions = [None] * batch_size
+                targets = np.zeros((batch_size, 1))
+
+                for b in range(batch_size):
+
+                    # non-prioritized data:
+                    if b < batch:
+                        state, action, reward, state_next, actions_next, finished = self.experience[batches[b]]
+                    # prioritized data (if there are any)
+                    elif len(self.prioritized_experiences_queue) > 0:
+                        state, action, reward, state_next, actions_next, finished = self.prioritized_experiences_queue[
+                            batches_prioritized[b - batch]]
+                    # get non-prioritized if there are no prioritized
+                    else:
+                        state, action, reward, state_next, actions_next, finished = self.experience[
+                            batches_prioritized[b - batch]]
+
+                    _, current_q = self.q_precomputed_state(state, [action], penalize_history=False)
+                    alpha = 1
+
+                    target = current_q + alpha * (reward - current_q)
+
+                    if not finished:
+                        # get an action with maximum Q value
+                        _, q_max = self.q_precomputed_state(state_next, actions_next, penalize_history=False)
+                        target += alpha * gamma * q_max
+
+                    states[b] = state
+                    actions[b] = action
+                    targets[b] = target
+
+                # pad the states and actions so that each sample in this batch has the same size
+                states = pad_sequences(states)
+                actions = pad_sequences(actions)
+
+                logger.debug('states %s', states)
+                logger.debug('actions %s', actions)
+                logger.debug('targets %s', targets)
+
+                callbacks = []
+
+                # add a tensorboard callback on the last episode
+                if i + 1 == episodes:
+                    callbacks = [self.tensorboard]
+
+                self.model.fit(x=[states, actions], y=targets, batch_size=batch_size, epochs=1, verbose=0,
+                               callbacks=callbacks)
+
+                epsilon *= epsilon_decay
+
+                # every checkpoint_steps, write down train and test reward history and the model object
+                if ((i + 1) % checkpoint_steps) == 0:
+
+                    file_name = 'ep' + str(i) + '_' + datetime.datetime.now().strftime('%m-%d-%H_%M_%S')
+
+                    with open(self.log_folder + '/' + log_prefix + '_train_' + file_name + '.txt', 'w') as file:
+                        for simulator_rewards in train_rewards_history:
+                            for rewards in simulator_rewards:
+                                for reward in rewards:
+                                    file.write('{:.1f}'.format(reward) + ' ')
+                                file.write(',')
+                            file.write('\n')
+
+                    with open(self.log_folder + '/' + log_prefix + '_test_' + file_name + '.txt', 'w') as file:
+                        for simulator_rewards in test_rewards_history:
+                            for rewards in simulator_rewards:
+                                for reward in rewards:
+                                    file.write('{:.1f}'.format(reward) + ' ')
+                                file.write(',')
+                            file.write('\n')
+
+                    # save the model
+                    self.model.save(self.log_folder + '/' + log_prefix + file_name + '.h5')
+                
+            test_rewards = self.play_game(episodes=test_steps, store_experience=False, epsilon=0,
+                                                  simulators=self.test_simulators)
+            test_rewards_history.append(test_rewards)
+            logger.info(
+                        "Test rewards: " +
+                        ", ".join(
+                            " ".join(x for x in ['{:.1f}'.format(reward) for reward in simulator_rewards])
+                            for simulator_rewards in test_rewards)
+                    )     
+
+        return
+
     def q_precomputed_state(self, state, actions, softmax_selection=False, penalize_history=False):
         """
         returns the Q-value of a single (state, action) pair
