@@ -79,24 +79,26 @@ def preprocess(text, chars='', remove_all_special=True, expand=True, split_numbe
     return text
 
 
-def load_embeddings(path):
+def load_embeddings(path_glove):
     """
     loads embeddings from a file and their their index (a dictionary of words with coefficients)
     tested on GloVe
     :param path: path to the embedding file
     :return:
     """
+    
     embeddings_index = {}
-    f = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), path))
+    f = open(path_glove)
     for line in f:
-        values = line.split()
-        word = values[0]
-        coefficients = np.asarray(values[1:], dtype='float32')
-        embeddings_index[word] = coefficients
+        words=line.split()
+        try:
+            embeddings_index[words[0]]=np.array(words[1:],dtype='float32')
+        except ValueError:
+            words2=words[0]+words[1]
     f.close()
-
     logger.info('Imported embeddings are using %s word vectors.' % len(embeddings_index))
     return embeddings_index
+
 
 
 class SSAQNAgent(agent.Agent):
@@ -222,7 +224,7 @@ class SSAQNAgent(agent.Agent):
                 embedding_vector = embeddings_index.get(word)
                 if embedding_vector is not None:
                     # words not found in embedding index will be all-zeros.
-                    embedding_matrix[i] = embedding_vector
+                    embedding_matrix[i] = embedding_vector[:embedding_dimensions]
                 else:
                     logger.warning('Word not found in embeddings: %s', word)
 
