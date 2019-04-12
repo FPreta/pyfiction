@@ -1,0 +1,1317 @@
+INFO:pyfiction.agents.ssaqn_agent:Initializing tokens by loading them from vocabulary.txt
+INFO:pyfiction.agents.ssaqn_agent:Tokenizer: 1119 words - {'i': 1, 'the': 2, 'to': 3, 'a': 4, "'s": 5, 'it': 6, 'my': 7, 'and': 8, 'me': 9, 'not': 10, 'her': 11, 'on': 12, 'in': 13, 'you': 14, 'of': 15, 'she': 16, 'for': 17, 'am': 18, 'that': 19, 'was': 20, 'cherie': 21, 'do': 22, 'he': 23, 'with': 24, 'is': 25, 'up': 26, 'but': 27, 'from': 28, 'out': 29, 'html': 30, 'adam': 31, 'as': 32, 'are': 33, 'eyes': 34, '3': 35, 'one': 36, 'focus': 37, 'could': 38, 'alphaq': 39, '1': 40, '4': 41, 'an': 42, 'knock': 43, 'be': 44, 'god': 45, 'who': 46, 'want': 47, 'open': 48, 'there': 49, 'remember': 50, 'hand': 51, 'hair': 52, 'this': 53, 'have': 54, 'like': 55, 'away': 56, 'if': 57, 'sent': 58, 'did': 59, 'some': 60, 'color': 61, 'style': 62, 'gray': 63, 'breathe': 64, 'what': 65, 'need': 66, 'sam': 67, 'orange': 68, 'side': 69, 'only': 70, 'going': 71, 'time': 72, 'feel': 73, 'know': 74, 'go': 75, 'honest': 76, 'let': 77, 'face': 78, 'really': 79, 'something': 80, 'no': 81, 'about': 82, 'him': 83, 'chance': 84, 'saved': 85, 'so': 86, 'message': 87, 'always': 88, 'back': 89, 'had': 90, 'first': 91, 'hard': 92, 'just': 93, 'should': 94, 'behind': 95, 'we': 96, 'see': 97, 'his': 98, 'how': 99, 'myself': 100, 'left': 101, 'never': 102, 'then': 103, 'sure': 104, 'being': 105, 'invitation': 106, 'by': 107, 'at': 108, 'forget': 109, 'even': 110, 'john': 111, 'all': 112, 'u': 113, 'save': 114, 'yellow': 115, 'bed': 116, 'hey': 117, 'lucretia': 118, 'when': 119, 'before': 120, 'towards': 121, 'day': 122, 'door': 123, 'been': 124, 'hold': 125, 'computer': 126, 'your': 127, 'hear': 128, 'over': 129, 'yet': 130, 'thought': 131, 'light': 132, 'feelings': 133, 'around': 134, 'longer': 135, 'mine': 136, 'whatever': 137, 'anything': 138, 'seems': 139, 'met': 140, 'good': 141, 'hurt': 142, 'can': 143, 'guilt': 144, 'feeling': 145, 'bitch': 146, 'sometimes': 147, 'few': 148, 'late': 149, 'barely': 150, 'deserve': 151, 'today': 152, 'under': 153, 'walk': 154, 'moment': 155, 'more': 156, 'reason': 157, 'oranges': 158, 'too': 159, 'wednesday': 160, 'mind': 161, 'will': 162, 'please': 163, 'order': 164, 'they': 165, 'reject': 166, 'sick': 167, 'close': 168, 'sort': 169, 'grab': 170, 'second': 171, 'later': 172, 'catch': 173, 'fault': 174, 'mom': 175, "''": 176, 'follow': 177, 'give': 178, 'last': 179, 'why': 180, 'continue': 181, 'guy': 182, 'knuckles': 183, 'seriously': 184, 'alright': 185, 'night': 186, 'does': 187, 'world': 188, 'window': 189, 'telling': 190, 'difficult': 191, 'psychiatrist': 192, 'says': 193, 'must': 194, 'calls': 195, 'deck': 196, 'waves': 197, 'respond': 198, 'instinctively': 199, 'turn': 200, 'upward': 201, 'pulled': 202, 'reaching': 203, 'slips': 204, 'circles': 205, 'coherent': 206, 'awake': 207, 'home': 208, 'snap': 209, 'killing': 210, 'sky': 211, 'laughter': 212, 'glimpse': 213, 'talk': 214, 'try': 215, 'diamonds': 216, 'schizophrenic': 217, 'lights': 218, 'drown': 219, 'click': 220, 'dancing': 221, 'shoes': 222, 'standing': 223, 'shadow': 224, 'crosses': 225, 'hypnotized': 226, 'impulse': 227, 'rihanna': 228, 'song': 229, 'mute': 230, 'space': 231, 'sweet': 232, 'whisper': 233, 'glitter': 234, 'reflecting': 235, 'thighs': 236, 'flips': 237, 'moves': 238, 'confidently': 239, 'extended': 240, 'seductive': 241, 'perfect': 242, 'accept': 243, 'pick': 244, 'party': 245, 'into': 246, 'off': 247, 'another': 248, 'ca': 249, 'memories': 250, 'work': 251, 'much': 252, 'were': 253, 'thing': 254, 'bowling': 255, 'keep': 256, 'okay': 257, 'metal': 258, 'distance': 259, 'these': 260, 'would': 261, 'everything': 262, "i'd": 263, 'trying': 264, 'reach': 265, 'memory': 266, 'well': 267, 'birthday': 268, 'phone': 269, 'seconds': 270, 'look': 271, 'morning': 272, 'maybe': 273, 'shut': 274, 'house': 275, 'shirt': 276, 'grandpa': 277, 'people': 278, 'pops': 279, 'laughs': 280, 'live': 281, 'making': 282, 'seemed': 283, 'still': 284, 'blue': 285, 'neighborhood': 286, 'push': 287, 'oh': 288, 'anywhere': 289, 'get': 290, 'meet': 291, 'hell': 292, 'sunday': 293, 'think': 294, 'its': 295, 'gave': 296, 'felt': 297, 'known': 298, 'saw': 299, 'grew': 300, 'together': 301, 'buddylist': 302, 'screen': 303, 'leave': 304, 'tried': 305, 'during': 306, 'dunno': 307, 'two': 308, 'say': 309, 'love': 310, 'because': 311, 'used': 312, 'fuck': 313, 'short': 314, 'once': 315, 'air': 316, 'figure': 317, 'sorry': 318, 'larry': 319, "he'd": 320, 'bad': 321, 'alone': 322, 'brought': 323, 'pussy': 324, 'yo': 325, 'them': 326, 'resolve': 327, 'herself': 328, 'project': 329, 'neuro': 330, 'psycho': 331, 'man': 332, 'now': 333, 'buttons': 334, 'stiffening': 335, 'closed': 336, 'long': 337, 'definitely': 338, 'silence': 339, 'again': 340, 'has': 341, 'weeks': 342, 'vanilla': 343, 'jolt': 344, 'mixed': 345, 'hit': 346, 'anyone': 347, 'lock': 348, 'recognize': 349, 'claim': 350, 'honesty': 351, 'distinct': 352, 'rattle': 353, 'impact': 354, 'forces': 355, 'jump': 356, 'pushed': 357, 'stood': 358, 'halfway': 359, 'shadows': 360, 'bloody': 361, 'wassup': 362, 'dude': 363, 'annoyed': 364, 'examine': 365, 'damaged': 366, 'dent': 367, 'else': 368, 'things': 369, 'through': 370, 'erase': 371, 'noise': 372, 're': 373, 'orient': 374, 'instincts': 375, 'carry': 376, 'circling': 377, 'childhood': 378, 'friend': 379, 'grandfather': 380, 'pain': 381, 'cookies': 382, 'deep': 383, 'front': 384, 'care': 385, 'gaze': 386, 'thank': 387, 'request': 388, 'uh': 389, 'someone': 390, 'jokes': 391, 'glad': 392, 'kick': 393, 'catholic': 394, 'best': 395, 'suppose': 396, 'shot': 397, 'palm': 398, 'fourth': 399, 'july': 400, 'uncle': 401, 'nervous': 402, 'wore': 403, 'slice': 404, 'joke': 405, 'kind': 406, 'place': 407, 'added': 408, 'chided': 409, 'trusting': 410, 'kinds': 411, 'add': 412, 'knowing': 413, 'especially': 414, 'pretty': 415, 'doubts': 416, '0': 417, 'almost': 418, 'repress': 419, "''unknown": 420, 'red': 421, 'breath': 422, 'different': 423, 'idle': 424, 'bonbons': 425, 'text': 426, 'shift': 427, 'beach': 428, 'heart': 429, 'child': 430, 'though': 431, 'steps': 432, 'take': 433, 'come': 434, 'champion': 435, 'monday': 436, 'beer': 437, 'pizza': 438, 'league': 439, 'missed': 440, 'sending': 441, 'daily': 442, 'delivery': 443, 'phrase': 444, 'repeated': 445, 'often': 446, 'better': 447, 'bake': 448, 'anymore': 449, 'inside': 450, 'awhile': 451, 'end': 452, 'soon': 453, 'heard': 454, 'sleep': 455, 'smiles': 456, 'school': 457, 'or': 458, 'blood': 459, "''cherie": 460, 'bleeding': 461, 'cher': 462, 'ryan': 463, 'hello': 464, 'strand': 465, 'way': 466, 'sight': 467, 'mean': 468, 'highway': 469, 'three': 470, 'mother': 471, 'drift': 472, 'little': 473, 'punch': 474, 'smile': 475, 'make': 476, 'probably': 477, 'rest': 478, 'new': 479, 'knows': 480, 'head': 481, 'waiting': 482, 'passing': 483, 'minutes': 484, 'crying': 485, 'dad': 486, 'pupils': 487, 'dilate': 488, 'dart': 489, 'crowds': 490, 'begin': 491, 'dizzy': 492, 'name': 493, 'gasped': 494, 'wonder': 495, 'asks': 496, 'repeat': 497, 'roll': 498, 'anger': 499, 'after': 500, 'buried': 501, 'constant': 502, 'hating': 503, 'local': 504, 'hero': 505, 'attended': 506, 'church': 507, 'every': 508, 'bring': 509, 'said': 510, 'less': 511, 'blur': 512, 'checking': 513, 'hotel': 514, 'dark': 515, 'desert': 516, 'cool': 517, 'wind': 518, 'ahead': 519, 'shimmering': 520, 'heavy': 521, 'dim': 522, 'housekeeping': 523, 'moan': 524, 'pillows': 525, 'sheets': 526, 'wrinkled': 527, 'suggesting': 528, 'here': 529, 'search': 530, 'note': 531, 'blinking': 532, 'also': 533, 'unknown': 534, 'number': 535, 'lived': 536, 'blocks': 537, 'leading': 538, 'wallpaper': 539, 'walks': 540, 'water': 541, 'gold': 542, 'flecks': 543, 'meets': 544, 'yearns': 545, 'grabs': 546, 'ones': 547, 'baked': 548, 'invite': 549, 'sprinkles': 550, 'forgetful': 551, 'reaches': 552, 'kiss': 553, 'pull': 554, 'driveway': 555, 'slowly': 556, 'becomes': 557, 'mirage': 558, 'lost': 559, 'beyond': 560, 'platinum': 561, 'stretch': 562, 'concrete': 563, 'against': 564, 'where': 565, 'believe': 566, 'suddenly': 567, 'fell': 568, 'scent': 569, 'reminded': 570, 'walking': 571, 'old': 572, 'shop': 573, 'area': 574, 'white': 575, 'awning': 576, 'lungs': 577, 'tomorrow': 578, 'loser': 579, 'other': 580, 'slams': 581, 'kill': 582, 'fight': 583, 'help': 584, 'delete': 585, "she'd": 586, 'having': 587, 'covers': 588, 'between': 589, 'yeah': 590, 'starts': 591, 'actually': 592, 'happened': 593, 'involve': 594, 'bowl': 595, 'prefers': 596, 'chatting': 597, 'communication': 598, 'hates': 599, 'polar': 600, 'opposites': 601, 'prioritized': 602, 'fingers': 603, 'reeally': 604, 'guiltyabout': 605, 'im': 606, 'inlove': 607, 'ithink': 608, 'club': 609, 'wet': 610, 'hinders': 611, 'vision': 612, 'sharp': 613, 'pierces': 614, 'comes': 615, 'view': 616, 'check': 617, 'pause': 618, 'ignore': 619, 'santa': 620, 'claus': 621, "''me": 622, 'fine': 623, '2': 624, 'hang': 625, 'loved': 626, 'quiet': 627, "c'mon": 628, 'climb': 629, 'wait': 630, 'stop': 631, 'made': 632, 'makes': 633, 'call': 634, 'appeared': 635, 'guilty': 636, 'deal': 637, 'guess': 638, 'looked': 639, 'power': 640, 'worked': 641, 'father': 642, 'routine': 643, 'hour': 644, 'afternoon': 645, 'food': 646, 'stained': 647, 'rotten': 648, 'reeked': 649, 'mold': 650, 'lonely': 651, 'kid': 652, 'nothing': 653, 'abused': 654, 'stronger': 655, 'talking': 656, 'down': 657, 'week': 658, 'knew': 659, 'confessed': 660, 'figured': 661, 'cluster': 662, 'reached': 663, 'same': 664, 'touch': 665, 'those': 666, 'hated': 667, 'swing': 668, 'wanted': 669, 'level': 670, 'smiling': 671, 'bleed': 672, 'yea': 673, 'understand': 674, 'everywhere': 675, 'threw': 676, 'turned': 677, 'messaged': 678, 'while': 679, 'dood': 680, 'nice': 681, 'friends': 682, 'bday': 683, 'tonite': 684, 'ace': 685, 'join': 686, 'ducks': 687, 'girl': 688, 'excuse': 689, 'pushes': 690, 'choice': 691, 'hours': 692, 'louder': 693, 'miss': 694, 'already': 695, 'smell': 696, 'compose': 697, 'luv': 698, 'particularly': 699, 'tuesday': 700, 'start': 701, 'tears': 702, 'apologize': 703, 'change': 704, 'thinking': 705, 'enough': 706, 'grin': 707, 'bear': 708, 'force': 709, 'chick': 710, 'goodnight': 711, 'came': 712, 'music': 713, 'reply': 714, 'sinking': 715, 'curb': 716, 'upset': 717, 'heck': 718, 'adds': 719, 'person': 720, 'without': 721, 'giving': 722, 'heads': 723, "freakin'": 724, 'stupid': 725, 'getting': 726, 'virus': 727, 'reformat': 728, 'pissed': 729, 'tired': 730, 'crash': 731, 'pillow': 732, 'vibrate': 733, 'groggily': 734, 'move': 735, 'any': 736, 'times': 737, 'falls': 738, 'supposed': 739, 'hmmm': 740, 'scars': 741, 'remove': 742, 'hits': 743, 'asked': 744, 'wrong': 745, 'articulate': 746, 'told': 747, 'munching': 748, 'candies': 749, 'events': 750, 'kinder': 751, 'worry': 752, 'son': 753, 'genie': 754, 'widened': 755, 'laughed': 756, 'winked': 757, 'quick': 758, 'ask': 759, 'betrayal': 760, 'picks': 761, 'ring': 762, 'wherever': 763, 'somewhere': 764, 'hesitates': 765, 'voice': 766, 'sounds': 767, 'shaky': 768, 'realize': 769, 'deeply': 770, 'defensive': 771, 'took': 772, 'hands': 773, 'trouble': 774, 'stand': 775, 'seeking': 776, 'refuge': 777, 'pounding': 778, 'delve': 779, 'deeper': 780, 'psycologist': 781, 'children': 782, 'imagination': 783, 'learning': 784, 'real': 785, 'stories': 786, 'fair': 787, 'betrayed': 788, 'abuse': 789, 'leaving': 790, 'broken': 791, 'hate': 792, 'grow': 793, 'swell': 794, 'takes': 795, 'personalities': 796, 'idea': 797, 'ever': 798, 'lately': 799, 'shutting': 800, 'hmm': 801, 'bothering': 802, 'cranky': 803, 'wound': 804, 'doctor': 805, 'bowled': 806, '7': 807, 'multiple': 808, 'personality': 809, 'disorder': 810, 'audible': 811, 'tug': 812, 'feels': 813, 'enternity': 814, 'responds': 815, 'great': 816, 'bus': 817, 'quickly': 818, 'convince': 819, 'otherwise': 820, 'yes': 821, 'glass': 822, 'raises': 823, 'eyebrow': 824, 'bar': 825, 'wish': 826, 'twirls': 827, 'submarine': 828, 'plays': 829, 'softly': 830, 'background': 831, 'screaming': 832, 'dreaded': 833, 'chipped': 834, 'paint': 835, 'sound': 836, 'faint': 837, 'hint': 838, 'soap': 839, 'uses': 840, 'looking': 841, 'dried': 842, 'cheeks': 843, 'part': 844, 'went': 845, 'life': 846, 'backward': 847, 'nose': 848, 'table': 849, 'flinch': 850, 'grins': 851, 'naturedly': 852, 'taken': 853, 'kids': 854, 'protect': 855, 'bullies': 856, 'bros': 857, 'gotta': 858, 'each': 859, 'confront': 860, '5': 861, 'stalking': 862, 'listen': 863, 'freak': 864, 'leaver': 865, 'dont': 866, 'swear': 867, 'keys': 868, 'questions': 869, 'happen': 870, 'doe': 871, 'ame': 872, 'ringing': 873, 'stomach': 874, 'wipe': 875, 'blame': 876, 'chill': 877, 'ok': 878, 'betta': 879, 'lame': 880, 'leaves': 881, 'sitting': 882, 'parking': 883, 'lot': 884, 'conversation': 885, 'attitude': 886, 'management': 887, 'called': 888, 'smelled': 889, 'recognized': 890, 'classes': 891, 'glare': 892, 'sun': 893, 'hurting': 894, 'hers': 895, 'minute': 896, 'step': 897, 'outside': 898, 'wearing': 899, 'summer': 900, 'dress': 901, 'daisies': 902, 'speechless': 903, 'drive': 904, 'hop': 905, 'car': 906, 'faster': 907, 'flash': 908, 'laugh': 909, 'throws': 910, 'fighting': 911, 'angrier': 912, 'their': 913, 'means': 914, 'point': 915, 'violence': 916, 'families': 917, 'apart': 918, 'hurts': 919, 'yourself': 920, 'reluctantly': 921, 'badly': 922, 'brings': 923, 'flood': 924, 'reminds': 925, 'least': 926, 'carries': 927, 'ton': 928, 'baggage': 929, 'closest': 930, 'kleenex': 931, 'box': 932, 'looks': 933, 'points': 934, 'mutter': 935, 'cheating': 936, 'afterall': 937, 'right': 938, 'breaks': 939, 'scared': 940, 'remembering': 941, 'mirror': 942, 'painful': 943, 'seem': 944, 'drag': 945, 'pressure': 946, 'tangible': 947, 'chest': 948, 'somehow': 949, 'karma': 950, 'slam': 951, 'turning': 952, 'notice': 953, 'bloodshot': 954, 'pretending': 955, 'confused': 956, 'piece': 957, 'sips': 958, 'quietly': 959, 'sorting': 960, 'doing': 961, 'broad': 962, 'cry': 963, 'instance': 964, 'tries': 965, 'shoot': 966, 'mana': 967, 'gently': 968, 'brushes': 969, 'finges': 970, 'upon': 971, 'battle': 972, 'dammit': 973, 'keyboard': 974, 'wall': 975, 'letter': 976, "'r'": 977, 'chewing': 978, 'lower': 979, 'lip': 980, 'pissing': 981, 'gets': 982, 'than': 983, 'capable': 984, 'taking': 985, 'himself': 986, 'coward': 987, 'kidding': 988, 'sting': 989, 'mechanism': 990, 'accused': 991, 'send': 992, 'occur': 993, 'until': 994, 'grumbling': 995, 'planet': 996, 'living': 997, 'shit': 998, 'whining': 999, 'narrows': 1000, 'inches': 1001, 'sneers': 1002, 'race': 1003, 'passenger': 1004, 'seat': 1005, 'ruining': 1006, 'shake': 1007, 'streetlights': 1008, 'blinds': 1009, 'deleted': 1010, 'accident': 1011, 'combintation': 1012, 'pressed': 1013, 'got': 1014, 'rid': 1015, 'lightning': 1016, 'clean': 1017, "ol'": 1018, 'gramps': 1019, 'headlights': 1020, 'scream': 1021, 'top': 1022, 'horrible': 1023, 'break': 1024, 'brush': 1025, 'pressing': 1026, 'throbbing': 1027, 'draws': 1028, 'suggest': 1029, 'stopping': 1030, 'hesitate': 1031, 'wheel': 1032, 'free': 1033, 'accelerate': 1034, 'giggles': 1035, 'turns': 1036, 'prison': 1037, 'lord': 1038, "'cause": 1039, 'misery': 1040, 'exhilirated': 1041, 'locked': 1042, 'crazy': 1043, 'far': 1044, 'heaven': 1045, 'spots': 1046, 'brighter': 1047, 'yellows': 1048, 'covering': 1049, 'blues': 1050, 'incident': 1051, 'hope': 1052, 'angry': 1053, 'cover': 1054, 'fear': 1055, 'engulfs': 1056, 'us': 1057, 'following': 1058, 'surprising': 1059, 'snorted': 1060, "fuckin'": 1061, 'unpleasant': 1062, 'most': 1063, 'likely': 1064, 'triggered': 1065, 'fond': 1066, 'touchy': 1067, 'feely': 1068, 'may': 1069, 'dug': 1070, 'room': 1071, 'objectively': 1072, 'speaking': 1073, 'matter': 1074, 'became': 1075, 'increasingly': 1076, 'harder': 1077, 'perhaps': 1078, 'sweat': 1079, 'drips': 1080, 'palms': 1081, 'might': 1082, 'insane': 1083, 'complain': 1084, 'hi': 1085, 'dinner': 1086, 'tonight': 1087, 'reservations': 1088, 'ago': 1089, 'sucks': 1090, 'lying': 1091, 'weird': 1092, 'verge': 1093, 'mental': 1094, 'breakdown': 1095, 'ya': 1096, 'sigh': 1097, 'promise': 1098, 'stay': 1099, 'mad': 1100, 'fun': 1101, 'needed': 1102, 'except': 1103, 'urgent': 1104, 'cuz': 1105, 'fuckin': 1106, 'whiner': 1107, 'drop': 1108, 'ride': 1109, 'tell': 1110, 'girlfriend': 1111, 'whipped': 1112, 'ponder': 1113, 'words': 1114, 'repeating': 1115, 'ignores': 1116, 'lunge': 1117, 'dialing': 1118, 'silent': 1119}
+INFO:pyfiction.agents.ssaqn_agent:Creating a model based on 1119 unique tokens.
+INFO:pyfiction.agents.ssaqn_agent:Importing pre-trained word embeddings.
+INFO:pyfiction.agents.ssaqn_agent:Initializing tokens by loading them from vocabulary.txt
+INFO:pyfiction.agents.ssaqn_agent:Tokenizer: 1119 words - {'i': 1, 'the': 2, 'to': 3, 'a': 4, "'s": 5, 'it': 6, 'my': 7, 'and': 8, 'me': 9, 'not': 10, 'her': 11, 'on': 12, 'in': 13, 'you': 14, 'of': 15, 'she': 16, 'for': 17, 'am': 18, 'that': 19, 'was': 20, 'cherie': 21, 'do': 22, 'he': 23, 'with': 24, 'is': 25, 'up': 26, 'but': 27, 'from': 28, 'out': 29, 'html': 30, 'adam': 31, 'as': 32, 'are': 33, 'eyes': 34, '3': 35, 'one': 36, 'focus': 37, 'could': 38, 'alphaq': 39, '1': 40, '4': 41, 'an': 42, 'knock': 43, 'be': 44, 'god': 45, 'who': 46, 'want': 47, 'open': 48, 'there': 49, 'remember': 50, 'hand': 51, 'hair': 52, 'this': 53, 'have': 54, 'like': 55, 'away': 56, 'if': 57, 'sent': 58, 'did': 59, 'some': 60, 'color': 61, 'style': 62, 'gray': 63, 'breathe': 64, 'what': 65, 'need': 66, 'sam': 67, 'orange': 68, 'side': 69, 'only': 70, 'going': 71, 'time': 72, 'feel': 73, 'know': 74, 'go': 75, 'honest': 76, 'let': 77, 'face': 78, 'really': 79, 'something': 80, 'no': 81, 'about': 82, 'him': 83, 'chance': 84, 'saved': 85, 'so': 86, 'message': 87, 'always': 88, 'back': 89, 'had': 90, 'first': 91, 'hard': 92, 'just': 93, 'should': 94, 'behind': 95, 'we': 96, 'see': 97, 'his': 98, 'how': 99, 'myself': 100, 'left': 101, 'never': 102, 'then': 103, 'sure': 104, 'being': 105, 'invitation': 106, 'by': 107, 'at': 108, 'forget': 109, 'even': 110, 'john': 111, 'all': 112, 'u': 113, 'save': 114, 'yellow': 115, 'bed': 116, 'hey': 117, 'lucretia': 118, 'when': 119, 'before': 120, 'towards': 121, 'day': 122, 'door': 123, 'been': 124, 'hold': 125, 'computer': 126, 'your': 127, 'hear': 128, 'over': 129, 'yet': 130, 'thought': 131, 'light': 132, 'feelings': 133, 'around': 134, 'longer': 135, 'mine': 136, 'whatever': 137, 'anything': 138, 'seems': 139, 'met': 140, 'good': 141, 'hurt': 142, 'can': 143, 'guilt': 144, 'feeling': 145, 'bitch': 146, 'sometimes': 147, 'few': 148, 'late': 149, 'barely': 150, 'deserve': 151, 'today': 152, 'under': 153, 'walk': 154, 'moment': 155, 'more': 156, 'reason': 157, 'oranges': 158, 'too': 159, 'wednesday': 160, 'mind': 161, 'will': 162, 'please': 163, 'order': 164, 'they': 165, 'reject': 166, 'sick': 167, 'close': 168, 'sort': 169, 'grab': 170, 'second': 171, 'later': 172, 'catch': 173, 'fault': 174, 'mom': 175, "''": 176, 'follow': 177, 'give': 178, 'last': 179, 'why': 180, 'continue': 181, 'guy': 182, 'knuckles': 183, 'seriously': 184, 'alright': 185, 'night': 186, 'does': 187, 'world': 188, 'window': 189, 'telling': 190, 'difficult': 191, 'psychiatrist': 192, 'says': 193, 'must': 194, 'calls': 195, 'deck': 196, 'waves': 197, 'respond': 198, 'instinctively': 199, 'turn': 200, 'upward': 201, 'pulled': 202, 'reaching': 203, 'slips': 204, 'circles': 205, 'coherent': 206, 'awake': 207, 'home': 208, 'snap': 209, 'killing': 210, 'sky': 211, 'laughter': 212, 'glimpse': 213, 'talk': 214, 'try': 215, 'diamonds': 216, 'schizophrenic': 217, 'lights': 218, 'drown': 219, 'click': 220, 'dancing': 221, 'shoes': 222, 'standing': 223, 'shadow': 224, 'crosses': 225, 'hypnotized': 226, 'impulse': 227, 'rihanna': 228, 'song': 229, 'mute': 230, 'space': 231, 'sweet': 232, 'whisper': 233, 'glitter': 234, 'reflecting': 235, 'thighs': 236, 'flips': 237, 'moves': 238, 'confidently': 239, 'extended': 240, 'seductive': 241, 'perfect': 242, 'accept': 243, 'pick': 244, 'party': 245, 'into': 246, 'off': 247, 'another': 248, 'ca': 249, 'memories': 250, 'work': 251, 'much': 252, 'were': 253, 'thing': 254, 'bowling': 255, 'keep': 256, 'okay': 257, 'metal': 258, 'distance': 259, 'these': 260, 'would': 261, 'everything': 262, "i'd": 263, 'trying': 264, 'reach': 265, 'memory': 266, 'well': 267, 'birthday': 268, 'phone': 269, 'seconds': 270, 'look': 271, 'morning': 272, 'maybe': 273, 'shut': 274, 'house': 275, 'shirt': 276, 'grandpa': 277, 'people': 278, 'pops': 279, 'laughs': 280, 'live': 281, 'making': 282, 'seemed': 283, 'still': 284, 'blue': 285, 'neighborhood': 286, 'push': 287, 'oh': 288, 'anywhere': 289, 'get': 290, 'meet': 291, 'hell': 292, 'sunday': 293, 'think': 294, 'its': 295, 'gave': 296, 'felt': 297, 'known': 298, 'saw': 299, 'grew': 300, 'together': 301, 'buddylist': 302, 'screen': 303, 'leave': 304, 'tried': 305, 'during': 306, 'dunno': 307, 'two': 308, 'say': 309, 'love': 310, 'because': 311, 'used': 312, 'fuck': 313, 'short': 314, 'once': 315, 'air': 316, 'figure': 317, 'sorry': 318, 'larry': 319, "he'd": 320, 'bad': 321, 'alone': 322, 'brought': 323, 'pussy': 324, 'yo': 325, 'them': 326, 'resolve': 327, 'herself': 328, 'project': 329, 'neuro': 330, 'psycho': 331, 'man': 332, 'now': 333, 'buttons': 334, 'stiffening': 335, 'closed': 336, 'long': 337, 'definitely': 338, 'silence': 339, 'again': 340, 'has': 341, 'weeks': 342, 'vanilla': 343, 'jolt': 344, 'mixed': 345, 'hit': 346, 'anyone': 347, 'lock': 348, 'recognize': 349, 'claim': 350, 'honesty': 351, 'distinct': 352, 'rattle': 353, 'impact': 354, 'forces': 355, 'jump': 356, 'pushed': 357, 'stood': 358, 'halfway': 359, 'shadows': 360, 'bloody': 361, 'wassup': 362, 'dude': 363, 'annoyed': 364, 'examine': 365, 'damaged': 366, 'dent': 367, 'else': 368, 'things': 369, 'through': 370, 'erase': 371, 'noise': 372, 're': 373, 'orient': 374, 'instincts': 375, 'carry': 376, 'circling': 377, 'childhood': 378, 'friend': 379, 'grandfather': 380, 'pain': 381, 'cookies': 382, 'deep': 383, 'front': 384, 'care': 385, 'gaze': 386, 'thank': 387, 'request': 388, 'uh': 389, 'someone': 390, 'jokes': 391, 'glad': 392, 'kick': 393, 'catholic': 394, 'best': 395, 'suppose': 396, 'shot': 397, 'palm': 398, 'fourth': 399, 'july': 400, 'uncle': 401, 'nervous': 402, 'wore': 403, 'slice': 404, 'joke': 405, 'kind': 406, 'place': 407, 'added': 408, 'chided': 409, 'trusting': 410, 'kinds': 411, 'add': 412, 'knowing': 413, 'especially': 414, 'pretty': 415, 'doubts': 416, '0': 417, 'almost': 418, 'repress': 419, "''unknown": 420, 'red': 421, 'breath': 422, 'different': 423, 'idle': 424, 'bonbons': 425, 'text': 426, 'shift': 427, 'beach': 428, 'heart': 429, 'child': 430, 'though': 431, 'steps': 432, 'take': 433, 'come': 434, 'champion': 435, 'monday': 436, 'beer': 437, 'pizza': 438, 'league': 439, 'missed': 440, 'sending': 441, 'daily': 442, 'delivery': 443, 'phrase': 444, 'repeated': 445, 'often': 446, 'better': 447, 'bake': 448, 'anymore': 449, 'inside': 450, 'awhile': 451, 'end': 452, 'soon': 453, 'heard': 454, 'sleep': 455, 'smiles': 456, 'school': 457, 'or': 458, 'blood': 459, "''cherie": 460, 'bleeding': 461, 'cher': 462, 'ryan': 463, 'hello': 464, 'strand': 465, 'way': 466, 'sight': 467, 'mean': 468, 'highway': 469, 'three': 470, 'mother': 471, 'drift': 472, 'little': 473, 'punch': 474, 'smile': 475, 'make': 476, 'probably': 477, 'rest': 478, 'new': 479, 'knows': 480, 'head': 481, 'waiting': 482, 'passing': 483, 'minutes': 484, 'crying': 485, 'dad': 486, 'pupils': 487, 'dilate': 488, 'dart': 489, 'crowds': 490, 'begin': 491, 'dizzy': 492, 'name': 493, 'gasped': 494, 'wonder': 495, 'asks': 496, 'repeat': 497, 'roll': 498, 'anger': 499, 'after': 500, 'buried': 501, 'constant': 502, 'hating': 503, 'local': 504, 'hero': 505, 'attended': 506, 'church': 507, 'every': 508, 'bring': 509, 'said': 510, 'less': 511, 'blur': 512, 'checking': 513, 'hotel': 514, 'dark': 515, 'desert': 516, 'cool': 517, 'wind': 518, 'ahead': 519, 'shimmering': 520, 'heavy': 521, 'dim': 522, 'housekeeping': 523, 'moan': 524, 'pillows': 525, 'sheets': 526, 'wrinkled': 527, 'suggesting': 528, 'here': 529, 'search': 530, 'note': 531, 'blinking': 532, 'also': 533, 'unknown': 534, 'number': 535, 'lived': 536, 'blocks': 537, 'leading': 538, 'wallpaper': 539, 'walks': 540, 'water': 541, 'gold': 542, 'flecks': 543, 'meets': 544, 'yearns': 545, 'grabs': 546, 'ones': 547, 'baked': 548, 'invite': 549, 'sprinkles': 550, 'forgetful': 551, 'reaches': 552, 'kiss': 553, 'pull': 554, 'driveway': 555, 'slowly': 556, 'becomes': 557, 'mirage': 558, 'lost': 559, 'beyond': 560, 'platinum': 561, 'stretch': 562, 'concrete': 563, 'against': 564, 'where': 565, 'believe': 566, 'suddenly': 567, 'fell': 568, 'scent': 569, 'reminded': 570, 'walking': 571, 'old': 572, 'shop': 573, 'area': 574, 'white': 575, 'awning': 576, 'lungs': 577, 'tomorrow': 578, 'loser': 579, 'other': 580, 'slams': 581, 'kill': 582, 'fight': 583, 'help': 584, 'delete': 585, "she'd": 586, 'having': 587, 'covers': 588, 'between': 589, 'yeah': 590, 'starts': 591, 'actually': 592, 'happened': 593, 'involve': 594, 'bowl': 595, 'prefers': 596, 'chatting': 597, 'communication': 598, 'hates': 599, 'polar': 600, 'opposites': 601, 'prioritized': 602, 'fingers': 603, 'reeally': 604, 'guiltyabout': 605, 'im': 606, 'inlove': 607, 'ithink': 608, 'club': 609, 'wet': 610, 'hinders': 611, 'vision': 612, 'sharp': 613, 'pierces': 614, 'comes': 615, 'view': 616, 'check': 617, 'pause': 618, 'ignore': 619, 'santa': 620, 'claus': 621, "''me": 622, 'fine': 623, '2': 624, 'hang': 625, 'loved': 626, 'quiet': 627, "c'mon": 628, 'climb': 629, 'wait': 630, 'stop': 631, 'made': 632, 'makes': 633, 'call': 634, 'appeared': 635, 'guilty': 636, 'deal': 637, 'guess': 638, 'looked': 639, 'power': 640, 'worked': 641, 'father': 642, 'routine': 643, 'hour': 644, 'afternoon': 645, 'food': 646, 'stained': 647, 'rotten': 648, 'reeked': 649, 'mold': 650, 'lonely': 651, 'kid': 652, 'nothing': 653, 'abused': 654, 'stronger': 655, 'talking': 656, 'down': 657, 'week': 658, 'knew': 659, 'confessed': 660, 'figured': 661, 'cluster': 662, 'reached': 663, 'same': 664, 'touch': 665, 'those': 666, 'hated': 667, 'swing': 668, 'wanted': 669, 'level': 670, 'smiling': 671, 'bleed': 672, 'yea': 673, 'understand': 674, 'everywhere': 675, 'threw': 676, 'turned': 677, 'messaged': 678, 'while': 679, 'dood': 680, 'nice': 681, 'friends': 682, 'bday': 683, 'tonite': 684, 'ace': 685, 'join': 686, 'ducks': 687, 'girl': 688, 'excuse': 689, 'pushes': 690, 'choice': 691, 'hours': 692, 'louder': 693, 'miss': 694, 'already': 695, 'smell': 696, 'compose': 697, 'luv': 698, 'particularly': 699, 'tuesday': 700, 'start': 701, 'tears': 702, 'apologize': 703, 'change': 704, 'thinking': 705, 'enough': 706, 'grin': 707, 'bear': 708, 'force': 709, 'chick': 710, 'goodnight': 711, 'came': 712, 'music': 713, 'reply': 714, 'sinking': 715, 'curb': 716, 'upset': 717, 'heck': 718, 'adds': 719, 'person': 720, 'without': 721, 'giving': 722, 'heads': 723, "freakin'": 724, 'stupid': 725, 'getting': 726, 'virus': 727, 'reformat': 728, 'pissed': 729, 'tired': 730, 'crash': 731, 'pillow': 732, 'vibrate': 733, 'groggily': 734, 'move': 735, 'any': 736, 'times': 737, 'falls': 738, 'supposed': 739, 'hmmm': 740, 'scars': 741, 'remove': 742, 'hits': 743, 'asked': 744, 'wrong': 745, 'articulate': 746, 'told': 747, 'munching': 748, 'candies': 749, 'events': 750, 'kinder': 751, 'worry': 752, 'son': 753, 'genie': 754, 'widened': 755, 'laughed': 756, 'winked': 757, 'quick': 758, 'ask': 759, 'betrayal': 760, 'picks': 761, 'ring': 762, 'wherever': 763, 'somewhere': 764, 'hesitates': 765, 'voice': 766, 'sounds': 767, 'shaky': 768, 'realize': 769, 'deeply': 770, 'defensive': 771, 'took': 772, 'hands': 773, 'trouble': 774, 'stand': 775, 'seeking': 776, 'refuge': 777, 'pounding': 778, 'delve': 779, 'deeper': 780, 'psycologist': 781, 'children': 782, 'imagination': 783, 'learning': 784, 'real': 785, 'stories': 786, 'fair': 787, 'betrayed': 788, 'abuse': 789, 'leaving': 790, 'broken': 791, 'hate': 792, 'grow': 793, 'swell': 794, 'takes': 795, 'personalities': 796, 'idea': 797, 'ever': 798, 'lately': 799, 'shutting': 800, 'hmm': 801, 'bothering': 802, 'cranky': 803, 'wound': 804, 'doctor': 805, 'bowled': 806, '7': 807, 'multiple': 808, 'personality': 809, 'disorder': 810, 'audible': 811, 'tug': 812, 'feels': 813, 'enternity': 814, 'responds': 815, 'great': 816, 'bus': 817, 'quickly': 818, 'convince': 819, 'otherwise': 820, 'yes': 821, 'glass': 822, 'raises': 823, 'eyebrow': 824, 'bar': 825, 'wish': 826, 'twirls': 827, 'submarine': 828, 'plays': 829, 'softly': 830, 'background': 831, 'screaming': 832, 'dreaded': 833, 'chipped': 834, 'paint': 835, 'sound': 836, 'faint': 837, 'hint': 838, 'soap': 839, 'uses': 840, 'looking': 841, 'dried': 842, 'cheeks': 843, 'part': 844, 'went': 845, 'life': 846, 'backward': 847, 'nose': 848, 'table': 849, 'flinch': 850, 'grins': 851, 'naturedly': 852, 'taken': 853, 'kids': 854, 'protect': 855, 'bullies': 856, 'bros': 857, 'gotta': 858, 'each': 859, 'confront': 860, '5': 861, 'stalking': 862, 'listen': 863, 'freak': 864, 'leaver': 865, 'dont': 866, 'swear': 867, 'keys': 868, 'questions': 869, 'happen': 870, 'doe': 871, 'ame': 872, 'ringing': 873, 'stomach': 874, 'wipe': 875, 'blame': 876, 'chill': 877, 'ok': 878, 'betta': 879, 'lame': 880, 'leaves': 881, 'sitting': 882, 'parking': 883, 'lot': 884, 'conversation': 885, 'attitude': 886, 'management': 887, 'called': 888, 'smelled': 889, 'recognized': 890, 'classes': 891, 'glare': 892, 'sun': 893, 'hurting': 894, 'hers': 895, 'minute': 896, 'step': 897, 'outside': 898, 'wearing': 899, 'summer': 900, 'dress': 901, 'daisies': 902, 'speechless': 903, 'drive': 904, 'hop': 905, 'car': 906, 'faster': 907, 'flash': 908, 'laugh': 909, 'throws': 910, 'fighting': 911, 'angrier': 912, 'their': 913, 'means': 914, 'point': 915, 'violence': 916, 'families': 917, 'apart': 918, 'hurts': 919, 'yourself': 920, 'reluctantly': 921, 'badly': 922, 'brings': 923, 'flood': 924, 'reminds': 925, 'least': 926, 'carries': 927, 'ton': 928, 'baggage': 929, 'closest': 930, 'kleenex': 931, 'box': 932, 'looks': 933, 'points': 934, 'mutter': 935, 'cheating': 936, 'afterall': 937, 'right': 938, 'breaks': 939, 'scared': 940, 'remembering': 941, 'mirror': 942, 'painful': 943, 'seem': 944, 'drag': 945, 'pressure': 946, 'tangible': 947, 'chest': 948, 'somehow': 949, 'karma': 950, 'slam': 951, 'turning': 952, 'notice': 953, 'bloodshot': 954, 'pretending': 955, 'confused': 956, 'piece': 957, 'sips': 958, 'quietly': 959, 'sorting': 960, 'doing': 961, 'broad': 962, 'cry': 963, 'instance': 964, 'tries': 965, 'shoot': 966, 'mana': 967, 'gently': 968, 'brushes': 969, 'finges': 970, 'upon': 971, 'battle': 972, 'dammit': 973, 'keyboard': 974, 'wall': 975, 'letter': 976, "'r'": 977, 'chewing': 978, 'lower': 979, 'lip': 980, 'pissing': 981, 'gets': 982, 'than': 983, 'capable': 984, 'taking': 985, 'himself': 986, 'coward': 987, 'kidding': 988, 'sting': 989, 'mechanism': 990, 'accused': 991, 'send': 992, 'occur': 993, 'until': 994, 'grumbling': 995, 'planet': 996, 'living': 997, 'shit': 998, 'whining': 999, 'narrows': 1000, 'inches': 1001, 'sneers': 1002, 'race': 1003, 'passenger': 1004, 'seat': 1005, 'ruining': 1006, 'shake': 1007, 'streetlights': 1008, 'blinds': 1009, 'deleted': 1010, 'accident': 1011, 'combintation': 1012, 'pressed': 1013, 'got': 1014, 'rid': 1015, 'lightning': 1016, 'clean': 1017, "ol'": 1018, 'gramps': 1019, 'headlights': 1020, 'scream': 1021, 'top': 1022, 'horrible': 1023, 'break': 1024, 'brush': 1025, 'pressing': 1026, 'throbbing': 1027, 'draws': 1028, 'suggest': 1029, 'stopping': 1030, 'hesitate': 1031, 'wheel': 1032, 'free': 1033, 'accelerate': 1034, 'giggles': 1035, 'turns': 1036, 'prison': 1037, 'lord': 1038, "'cause": 1039, 'misery': 1040, 'exhilirated': 1041, 'locked': 1042, 'crazy': 1043, 'far': 1044, 'heaven': 1045, 'spots': 1046, 'brighter': 1047, 'yellows': 1048, 'covering': 1049, 'blues': 1050, 'incident': 1051, 'hope': 1052, 'angry': 1053, 'cover': 1054, 'fear': 1055, 'engulfs': 1056, 'us': 1057, 'following': 1058, 'surprising': 1059, 'snorted': 1060, "fuckin'": 1061, 'unpleasant': 1062, 'most': 1063, 'likely': 1064, 'triggered': 1065, 'fond': 1066, 'touchy': 1067, 'feely': 1068, 'may': 1069, 'dug': 1070, 'room': 1071, 'objectively': 1072, 'speaking': 1073, 'matter': 1074, 'became': 1075, 'increasingly': 1076, 'harder': 1077, 'perhaps': 1078, 'sweat': 1079, 'drips': 1080, 'palms': 1081, 'might': 1082, 'insane': 1083, 'complain': 1084, 'hi': 1085, 'dinner': 1086, 'tonight': 1087, 'reservations': 1088, 'ago': 1089, 'sucks': 1090, 'lying': 1091, 'weird': 1092, 'verge': 1093, 'mental': 1094, 'breakdown': 1095, 'ya': 1096, 'sigh': 1097, 'promise': 1098, 'stay': 1099, 'mad': 1100, 'fun': 1101, 'needed': 1102, 'except': 1103, 'urgent': 1104, 'cuz': 1105, 'fuckin': 1106, 'whiner': 1107, 'drop': 1108, 'ride': 1109, 'tell': 1110, 'girlfriend': 1111, 'whipped': 1112, 'ponder': 1113, 'words': 1114, 'repeating': 1115, 'ignores': 1116, 'lunge': 1117, 'dialing': 1118, 'silent': 1119}
+INFO:pyfiction.agents.ssaqn_agent:Creating a model based on 1119 unique tokens.
+INFO:pyfiction.agents.ssaqn_agent:Importing pre-trained word embeddings.
+INFO:pyfiction.agents.ssaqn_agent:Initializing tokens by loading them from vocabulary.txt
+INFO:pyfiction.agents.ssaqn_agent:Tokenizer: 1119 words - {'i': 1, 'the': 2, 'to': 3, 'a': 4, "'s": 5, 'it': 6, 'my': 7, 'and': 8, 'me': 9, 'not': 10, 'her': 11, 'on': 12, 'in': 13, 'you': 14, 'of': 15, 'she': 16, 'for': 17, 'am': 18, 'that': 19, 'was': 20, 'cherie': 21, 'do': 22, 'he': 23, 'with': 24, 'is': 25, 'up': 26, 'but': 27, 'from': 28, 'out': 29, 'html': 30, 'adam': 31, 'as': 32, 'are': 33, 'eyes': 34, '3': 35, 'one': 36, 'focus': 37, 'could': 38, 'alphaq': 39, '1': 40, '4': 41, 'an': 42, 'knock': 43, 'be': 44, 'god': 45, 'who': 46, 'want': 47, 'open': 48, 'there': 49, 'remember': 50, 'hand': 51, 'hair': 52, 'this': 53, 'have': 54, 'like': 55, 'away': 56, 'if': 57, 'sent': 58, 'did': 59, 'some': 60, 'color': 61, 'style': 62, 'gray': 63, 'breathe': 64, 'what': 65, 'need': 66, 'sam': 67, 'orange': 68, 'side': 69, 'only': 70, 'going': 71, 'time': 72, 'feel': 73, 'know': 74, 'go': 75, 'honest': 76, 'let': 77, 'face': 78, 'really': 79, 'something': 80, 'no': 81, 'about': 82, 'him': 83, 'chance': 84, 'saved': 85, 'so': 86, 'message': 87, 'always': 88, 'back': 89, 'had': 90, 'first': 91, 'hard': 92, 'just': 93, 'should': 94, 'behind': 95, 'we': 96, 'see': 97, 'his': 98, 'how': 99, 'myself': 100, 'left': 101, 'never': 102, 'then': 103, 'sure': 104, 'being': 105, 'invitation': 106, 'by': 107, 'at': 108, 'forget': 109, 'even': 110, 'john': 111, 'all': 112, 'u': 113, 'save': 114, 'yellow': 115, 'bed': 116, 'hey': 117, 'lucretia': 118, 'when': 119, 'before': 120, 'towards': 121, 'day': 122, 'door': 123, 'been': 124, 'hold': 125, 'computer': 126, 'your': 127, 'hear': 128, 'over': 129, 'yet': 130, 'thought': 131, 'light': 132, 'feelings': 133, 'around': 134, 'longer': 135, 'mine': 136, 'whatever': 137, 'anything': 138, 'seems': 139, 'met': 140, 'good': 141, 'hurt': 142, 'can': 143, 'guilt': 144, 'feeling': 145, 'bitch': 146, 'sometimes': 147, 'few': 148, 'late': 149, 'barely': 150, 'deserve': 151, 'today': 152, 'under': 153, 'walk': 154, 'moment': 155, 'more': 156, 'reason': 157, 'oranges': 158, 'too': 159, 'wednesday': 160, 'mind': 161, 'will': 162, 'please': 163, 'order': 164, 'they': 165, 'reject': 166, 'sick': 167, 'close': 168, 'sort': 169, 'grab': 170, 'second': 171, 'later': 172, 'catch': 173, 'fault': 174, 'mom': 175, "''": 176, 'follow': 177, 'give': 178, 'last': 179, 'why': 180, 'continue': 181, 'guy': 182, 'knuckles': 183, 'seriously': 184, 'alright': 185, 'night': 186, 'does': 187, 'world': 188, 'window': 189, 'telling': 190, 'difficult': 191, 'psychiatrist': 192, 'says': 193, 'must': 194, 'calls': 195, 'deck': 196, 'waves': 197, 'respond': 198, 'instinctively': 199, 'turn': 200, 'upward': 201, 'pulled': 202, 'reaching': 203, 'slips': 204, 'circles': 205, 'coherent': 206, 'awake': 207, 'home': 208, 'snap': 209, 'killing': 210, 'sky': 211, 'laughter': 212, 'glimpse': 213, 'talk': 214, 'try': 215, 'diamonds': 216, 'schizophrenic': 217, 'lights': 218, 'drown': 219, 'click': 220, 'dancing': 221, 'shoes': 222, 'standing': 223, 'shadow': 224, 'crosses': 225, 'hypnotized': 226, 'impulse': 227, 'rihanna': 228, 'song': 229, 'mute': 230, 'space': 231, 'sweet': 232, 'whisper': 233, 'glitter': 234, 'reflecting': 235, 'thighs': 236, 'flips': 237, 'moves': 238, 'confidently': 239, 'extended': 240, 'seductive': 241, 'perfect': 242, 'accept': 243, 'pick': 244, 'party': 245, 'into': 246, 'off': 247, 'another': 248, 'ca': 249, 'memories': 250, 'work': 251, 'much': 252, 'were': 253, 'thing': 254, 'bowling': 255, 'keep': 256, 'okay': 257, 'metal': 258, 'distance': 259, 'these': 260, 'would': 261, 'everything': 262, "i'd": 263, 'trying': 264, 'reach': 265, 'memory': 266, 'well': 267, 'birthday': 268, 'phone': 269, 'seconds': 270, 'look': 271, 'morning': 272, 'maybe': 273, 'shut': 274, 'house': 275, 'shirt': 276, 'grandpa': 277, 'people': 278, 'pops': 279, 'laughs': 280, 'live': 281, 'making': 282, 'seemed': 283, 'still': 284, 'blue': 285, 'neighborhood': 286, 'push': 287, 'oh': 288, 'anywhere': 289, 'get': 290, 'meet': 291, 'hell': 292, 'sunday': 293, 'think': 294, 'its': 295, 'gave': 296, 'felt': 297, 'known': 298, 'saw': 299, 'grew': 300, 'together': 301, 'buddylist': 302, 'screen': 303, 'leave': 304, 'tried': 305, 'during': 306, 'dunno': 307, 'two': 308, 'say': 309, 'love': 310, 'because': 311, 'used': 312, 'fuck': 313, 'short': 314, 'once': 315, 'air': 316, 'figure': 317, 'sorry': 318, 'larry': 319, "he'd": 320, 'bad': 321, 'alone': 322, 'brought': 323, 'pussy': 324, 'yo': 325, 'them': 326, 'resolve': 327, 'herself': 328, 'project': 329, 'neuro': 330, 'psycho': 331, 'man': 332, 'now': 333, 'buttons': 334, 'stiffening': 335, 'closed': 336, 'long': 337, 'definitely': 338, 'silence': 339, 'again': 340, 'has': 341, 'weeks': 342, 'vanilla': 343, 'jolt': 344, 'mixed': 345, 'hit': 346, 'anyone': 347, 'lock': 348, 'recognize': 349, 'claim': 350, 'honesty': 351, 'distinct': 352, 'rattle': 353, 'impact': 354, 'forces': 355, 'jump': 356, 'pushed': 357, 'stood': 358, 'halfway': 359, 'shadows': 360, 'bloody': 361, 'wassup': 362, 'dude': 363, 'annoyed': 364, 'examine': 365, 'damaged': 366, 'dent': 367, 'else': 368, 'things': 369, 'through': 370, 'erase': 371, 'noise': 372, 're': 373, 'orient': 374, 'instincts': 375, 'carry': 376, 'circling': 377, 'childhood': 378, 'friend': 379, 'grandfather': 380, 'pain': 381, 'cookies': 382, 'deep': 383, 'front': 384, 'care': 385, 'gaze': 386, 'thank': 387, 'request': 388, 'uh': 389, 'someone': 390, 'jokes': 391, 'glad': 392, 'kick': 393, 'catholic': 394, 'best': 395, 'suppose': 396, 'shot': 397, 'palm': 398, 'fourth': 399, 'july': 400, 'uncle': 401, 'nervous': 402, 'wore': 403, 'slice': 404, 'joke': 405, 'kind': 406, 'place': 407, 'added': 408, 'chided': 409, 'trusting': 410, 'kinds': 411, 'add': 412, 'knowing': 413, 'especially': 414, 'pretty': 415, 'doubts': 416, '0': 417, 'almost': 418, 'repress': 419, "''unknown": 420, 'red': 421, 'breath': 422, 'different': 423, 'idle': 424, 'bonbons': 425, 'text': 426, 'shift': 427, 'beach': 428, 'heart': 429, 'child': 430, 'though': 431, 'steps': 432, 'take': 433, 'come': 434, 'champion': 435, 'monday': 436, 'beer': 437, 'pizza': 438, 'league': 439, 'missed': 440, 'sending': 441, 'daily': 442, 'delivery': 443, 'phrase': 444, 'repeated': 445, 'often': 446, 'better': 447, 'bake': 448, 'anymore': 449, 'inside': 450, 'awhile': 451, 'end': 452, 'soon': 453, 'heard': 454, 'sleep': 455, 'smiles': 456, 'school': 457, 'or': 458, 'blood': 459, "''cherie": 460, 'bleeding': 461, 'cher': 462, 'ryan': 463, 'hello': 464, 'strand': 465, 'way': 466, 'sight': 467, 'mean': 468, 'highway': 469, 'three': 470, 'mother': 471, 'drift': 472, 'little': 473, 'punch': 474, 'smile': 475, 'make': 476, 'probably': 477, 'rest': 478, 'new': 479, 'knows': 480, 'head': 481, 'waiting': 482, 'passing': 483, 'minutes': 484, 'crying': 485, 'dad': 486, 'pupils': 487, 'dilate': 488, 'dart': 489, 'crowds': 490, 'begin': 491, 'dizzy': 492, 'name': 493, 'gasped': 494, 'wonder': 495, 'asks': 496, 'repeat': 497, 'roll': 498, 'anger': 499, 'after': 500, 'buried': 501, 'constant': 502, 'hating': 503, 'local': 504, 'hero': 505, 'attended': 506, 'church': 507, 'every': 508, 'bring': 509, 'said': 510, 'less': 511, 'blur': 512, 'checking': 513, 'hotel': 514, 'dark': 515, 'desert': 516, 'cool': 517, 'wind': 518, 'ahead': 519, 'shimmering': 520, 'heavy': 521, 'dim': 522, 'housekeeping': 523, 'moan': 524, 'pillows': 525, 'sheets': 526, 'wrinkled': 527, 'suggesting': 528, 'here': 529, 'search': 530, 'note': 531, 'blinking': 532, 'also': 533, 'unknown': 534, 'number': 535, 'lived': 536, 'blocks': 537, 'leading': 538, 'wallpaper': 539, 'walks': 540, 'water': 541, 'gold': 542, 'flecks': 543, 'meets': 544, 'yearns': 545, 'grabs': 546, 'ones': 547, 'baked': 548, 'invite': 549, 'sprinkles': 550, 'forgetful': 551, 'reaches': 552, 'kiss': 553, 'pull': 554, 'driveway': 555, 'slowly': 556, 'becomes': 557, 'mirage': 558, 'lost': 559, 'beyond': 560, 'platinum': 561, 'stretch': 562, 'concrete': 563, 'against': 564, 'where': 565, 'believe': 566, 'suddenly': 567, 'fell': 568, 'scent': 569, 'reminded': 570, 'walking': 571, 'old': 572, 'shop': 573, 'area': 574, 'white': 575, 'awning': 576, 'lungs': 577, 'tomorrow': 578, 'loser': 579, 'other': 580, 'slams': 581, 'kill': 582, 'fight': 583, 'help': 584, 'delete': 585, "she'd": 586, 'having': 587, 'covers': 588, 'between': 589, 'yeah': 590, 'starts': 591, 'actually': 592, 'happened': 593, 'involve': 594, 'bowl': 595, 'prefers': 596, 'chatting': 597, 'communication': 598, 'hates': 599, 'polar': 600, 'opposites': 601, 'prioritized': 602, 'fingers': 603, 'reeally': 604, 'guiltyabout': 605, 'im': 606, 'inlove': 607, 'ithink': 608, 'club': 609, 'wet': 610, 'hinders': 611, 'vision': 612, 'sharp': 613, 'pierces': 614, 'comes': 615, 'view': 616, 'check': 617, 'pause': 618, 'ignore': 619, 'santa': 620, 'claus': 621, "''me": 622, 'fine': 623, '2': 624, 'hang': 625, 'loved': 626, 'quiet': 627, "c'mon": 628, 'climb': 629, 'wait': 630, 'stop': 631, 'made': 632, 'makes': 633, 'call': 634, 'appeared': 635, 'guilty': 636, 'deal': 637, 'guess': 638, 'looked': 639, 'power': 640, 'worked': 641, 'father': 642, 'routine': 643, 'hour': 644, 'afternoon': 645, 'food': 646, 'stained': 647, 'rotten': 648, 'reeked': 649, 'mold': 650, 'lonely': 651, 'kid': 652, 'nothing': 653, 'abused': 654, 'stronger': 655, 'talking': 656, 'down': 657, 'week': 658, 'knew': 659, 'confessed': 660, 'figured': 661, 'cluster': 662, 'reached': 663, 'same': 664, 'touch': 665, 'those': 666, 'hated': 667, 'swing': 668, 'wanted': 669, 'level': 670, 'smiling': 671, 'bleed': 672, 'yea': 673, 'understand': 674, 'everywhere': 675, 'threw': 676, 'turned': 677, 'messaged': 678, 'while': 679, 'dood': 680, 'nice': 681, 'friends': 682, 'bday': 683, 'tonite': 684, 'ace': 685, 'join': 686, 'ducks': 687, 'girl': 688, 'excuse': 689, 'pushes': 690, 'choice': 691, 'hours': 692, 'louder': 693, 'miss': 694, 'already': 695, 'smell': 696, 'compose': 697, 'luv': 698, 'particularly': 699, 'tuesday': 700, 'start': 701, 'tears': 702, 'apologize': 703, 'change': 704, 'thinking': 705, 'enough': 706, 'grin': 707, 'bear': 708, 'force': 709, 'chick': 710, 'goodnight': 711, 'came': 712, 'music': 713, 'reply': 714, 'sinking': 715, 'curb': 716, 'upset': 717, 'heck': 718, 'adds': 719, 'person': 720, 'without': 721, 'giving': 722, 'heads': 723, "freakin'": 724, 'stupid': 725, 'getting': 726, 'virus': 727, 'reformat': 728, 'pissed': 729, 'tired': 730, 'crash': 731, 'pillow': 732, 'vibrate': 733, 'groggily': 734, 'move': 735, 'any': 736, 'times': 737, 'falls': 738, 'supposed': 739, 'hmmm': 740, 'scars': 741, 'remove': 742, 'hits': 743, 'asked': 744, 'wrong': 745, 'articulate': 746, 'told': 747, 'munching': 748, 'candies': 749, 'events': 750, 'kinder': 751, 'worry': 752, 'son': 753, 'genie': 754, 'widened': 755, 'laughed': 756, 'winked': 757, 'quick': 758, 'ask': 759, 'betrayal': 760, 'picks': 761, 'ring': 762, 'wherever': 763, 'somewhere': 764, 'hesitates': 765, 'voice': 766, 'sounds': 767, 'shaky': 768, 'realize': 769, 'deeply': 770, 'defensive': 771, 'took': 772, 'hands': 773, 'trouble': 774, 'stand': 775, 'seeking': 776, 'refuge': 777, 'pounding': 778, 'delve': 779, 'deeper': 780, 'psycologist': 781, 'children': 782, 'imagination': 783, 'learning': 784, 'real': 785, 'stories': 786, 'fair': 787, 'betrayed': 788, 'abuse': 789, 'leaving': 790, 'broken': 791, 'hate': 792, 'grow': 793, 'swell': 794, 'takes': 795, 'personalities': 796, 'idea': 797, 'ever': 798, 'lately': 799, 'shutting': 800, 'hmm': 801, 'bothering': 802, 'cranky': 803, 'wound': 804, 'doctor': 805, 'bowled': 806, '7': 807, 'multiple': 808, 'personality': 809, 'disorder': 810, 'audible': 811, 'tug': 812, 'feels': 813, 'enternity': 814, 'responds': 815, 'great': 816, 'bus': 817, 'quickly': 818, 'convince': 819, 'otherwise': 820, 'yes': 821, 'glass': 822, 'raises': 823, 'eyebrow': 824, 'bar': 825, 'wish': 826, 'twirls': 827, 'submarine': 828, 'plays': 829, 'softly': 830, 'background': 831, 'screaming': 832, 'dreaded': 833, 'chipped': 834, 'paint': 835, 'sound': 836, 'faint': 837, 'hint': 838, 'soap': 839, 'uses': 840, 'looking': 841, 'dried': 842, 'cheeks': 843, 'part': 844, 'went': 845, 'life': 846, 'backward': 847, 'nose': 848, 'table': 849, 'flinch': 850, 'grins': 851, 'naturedly': 852, 'taken': 853, 'kids': 854, 'protect': 855, 'bullies': 856, 'bros': 857, 'gotta': 858, 'each': 859, 'confront': 860, '5': 861, 'stalking': 862, 'listen': 863, 'freak': 864, 'leaver': 865, 'dont': 866, 'swear': 867, 'keys': 868, 'questions': 869, 'happen': 870, 'doe': 871, 'ame': 872, 'ringing': 873, 'stomach': 874, 'wipe': 875, 'blame': 876, 'chill': 877, 'ok': 878, 'betta': 879, 'lame': 880, 'leaves': 881, 'sitting': 882, 'parking': 883, 'lot': 884, 'conversation': 885, 'attitude': 886, 'management': 887, 'called': 888, 'smelled': 889, 'recognized': 890, 'classes': 891, 'glare': 892, 'sun': 893, 'hurting': 894, 'hers': 895, 'minute': 896, 'step': 897, 'outside': 898, 'wearing': 899, 'summer': 900, 'dress': 901, 'daisies': 902, 'speechless': 903, 'drive': 904, 'hop': 905, 'car': 906, 'faster': 907, 'flash': 908, 'laugh': 909, 'throws': 910, 'fighting': 911, 'angrier': 912, 'their': 913, 'means': 914, 'point': 915, 'violence': 916, 'families': 917, 'apart': 918, 'hurts': 919, 'yourself': 920, 'reluctantly': 921, 'badly': 922, 'brings': 923, 'flood': 924, 'reminds': 925, 'least': 926, 'carries': 927, 'ton': 928, 'baggage': 929, 'closest': 930, 'kleenex': 931, 'box': 932, 'looks': 933, 'points': 934, 'mutter': 935, 'cheating': 936, 'afterall': 937, 'right': 938, 'breaks': 939, 'scared': 940, 'remembering': 941, 'mirror': 942, 'painful': 943, 'seem': 944, 'drag': 945, 'pressure': 946, 'tangible': 947, 'chest': 948, 'somehow': 949, 'karma': 950, 'slam': 951, 'turning': 952, 'notice': 953, 'bloodshot': 954, 'pretending': 955, 'confused': 956, 'piece': 957, 'sips': 958, 'quietly': 959, 'sorting': 960, 'doing': 961, 'broad': 962, 'cry': 963, 'instance': 964, 'tries': 965, 'shoot': 966, 'mana': 967, 'gently': 968, 'brushes': 969, 'finges': 970, 'upon': 971, 'battle': 972, 'dammit': 973, 'keyboard': 974, 'wall': 975, 'letter': 976, "'r'": 977, 'chewing': 978, 'lower': 979, 'lip': 980, 'pissing': 981, 'gets': 982, 'than': 983, 'capable': 984, 'taking': 985, 'himself': 986, 'coward': 987, 'kidding': 988, 'sting': 989, 'mechanism': 990, 'accused': 991, 'send': 992, 'occur': 993, 'until': 994, 'grumbling': 995, 'planet': 996, 'living': 997, 'shit': 998, 'whining': 999, 'narrows': 1000, 'inches': 1001, 'sneers': 1002, 'race': 1003, 'passenger': 1004, 'seat': 1005, 'ruining': 1006, 'shake': 1007, 'streetlights': 1008, 'blinds': 1009, 'deleted': 1010, 'accident': 1011, 'combintation': 1012, 'pressed': 1013, 'got': 1014, 'rid': 1015, 'lightning': 1016, 'clean': 1017, "ol'": 1018, 'gramps': 1019, 'headlights': 1020, 'scream': 1021, 'top': 1022, 'horrible': 1023, 'break': 1024, 'brush': 1025, 'pressing': 1026, 'throbbing': 1027, 'draws': 1028, 'suggest': 1029, 'stopping': 1030, 'hesitate': 1031, 'wheel': 1032, 'free': 1033, 'accelerate': 1034, 'giggles': 1035, 'turns': 1036, 'prison': 1037, 'lord': 1038, "'cause": 1039, 'misery': 1040, 'exhilirated': 1041, 'locked': 1042, 'crazy': 1043, 'far': 1044, 'heaven': 1045, 'spots': 1046, 'brighter': 1047, 'yellows': 1048, 'covering': 1049, 'blues': 1050, 'incident': 1051, 'hope': 1052, 'angry': 1053, 'cover': 1054, 'fear': 1055, 'engulfs': 1056, 'us': 1057, 'following': 1058, 'surprising': 1059, 'snorted': 1060, "fuckin'": 1061, 'unpleasant': 1062, 'most': 1063, 'likely': 1064, 'triggered': 1065, 'fond': 1066, 'touchy': 1067, 'feely': 1068, 'may': 1069, 'dug': 1070, 'room': 1071, 'objectively': 1072, 'speaking': 1073, 'matter': 1074, 'became': 1075, 'increasingly': 1076, 'harder': 1077, 'perhaps': 1078, 'sweat': 1079, 'drips': 1080, 'palms': 1081, 'might': 1082, 'insane': 1083, 'complain': 1084, 'hi': 1085, 'dinner': 1086, 'tonight': 1087, 'reservations': 1088, 'ago': 1089, 'sucks': 1090, 'lying': 1091, 'weird': 1092, 'verge': 1093, 'mental': 1094, 'breakdown': 1095, 'ya': 1096, 'sigh': 1097, 'promise': 1098, 'stay': 1099, 'mad': 1100, 'fun': 1101, 'needed': 1102, 'except': 1103, 'urgent': 1104, 'cuz': 1105, 'fuckin': 1106, 'whiner': 1107, 'drop': 1108, 'ride': 1109, 'tell': 1110, 'girlfriend': 1111, 'whipped': 1112, 'ponder': 1113, 'words': 1114, 'repeating': 1115, 'ignores': 1116, 'lunge': 1117, 'dialing': 1118, 'silent': 1119}
+INFO:pyfiction.agents.ssaqn_agent:Creating a model based on 1119 unique tokens.
+INFO:pyfiction.agents.ssaqn_agent:Importing pre-trained word embeddings.
+INFO:pyfiction.agents.ssaqn_agent:Initializing tokens by loading them from vocabulary.txt
+INFO:pyfiction.agents.ssaqn_agent:Tokenizer: 1119 words - {'i': 1, 'the': 2, 'to': 3, 'a': 4, "'s": 5, 'it': 6, 'my': 7, 'and': 8, 'me': 9, 'not': 10, 'her': 11, 'on': 12, 'in': 13, 'you': 14, 'of': 15, 'she': 16, 'for': 17, 'am': 18, 'that': 19, 'was': 20, 'cherie': 21, 'do': 22, 'he': 23, 'with': 24, 'is': 25, 'up': 26, 'but': 27, 'from': 28, 'out': 29, 'html': 30, 'adam': 31, 'as': 32, 'are': 33, 'eyes': 34, '3': 35, 'one': 36, 'focus': 37, 'could': 38, 'alphaq': 39, '1': 40, '4': 41, 'an': 42, 'knock': 43, 'be': 44, 'god': 45, 'who': 46, 'want': 47, 'open': 48, 'there': 49, 'remember': 50, 'hand': 51, 'hair': 52, 'this': 53, 'have': 54, 'like': 55, 'away': 56, 'if': 57, 'sent': 58, 'did': 59, 'some': 60, 'color': 61, 'style': 62, 'gray': 63, 'breathe': 64, 'what': 65, 'need': 66, 'sam': 67, 'orange': 68, 'side': 69, 'only': 70, 'going': 71, 'time': 72, 'feel': 73, 'know': 74, 'go': 75, 'honest': 76, 'let': 77, 'face': 78, 'really': 79, 'something': 80, 'no': 81, 'about': 82, 'him': 83, 'chance': 84, 'saved': 85, 'so': 86, 'message': 87, 'always': 88, 'back': 89, 'had': 90, 'first': 91, 'hard': 92, 'just': 93, 'should': 94, 'behind': 95, 'we': 96, 'see': 97, 'his': 98, 'how': 99, 'myself': 100, 'left': 101, 'never': 102, 'then': 103, 'sure': 104, 'being': 105, 'invitation': 106, 'by': 107, 'at': 108, 'forget': 109, 'even': 110, 'john': 111, 'all': 112, 'u': 113, 'save': 114, 'yellow': 115, 'bed': 116, 'hey': 117, 'lucretia': 118, 'when': 119, 'before': 120, 'towards': 121, 'day': 122, 'door': 123, 'been': 124, 'hold': 125, 'computer': 126, 'your': 127, 'hear': 128, 'over': 129, 'yet': 130, 'thought': 131, 'light': 132, 'feelings': 133, 'around': 134, 'longer': 135, 'mine': 136, 'whatever': 137, 'anything': 138, 'seems': 139, 'met': 140, 'good': 141, 'hurt': 142, 'can': 143, 'guilt': 144, 'feeling': 145, 'bitch': 146, 'sometimes': 147, 'few': 148, 'late': 149, 'barely': 150, 'deserve': 151, 'today': 152, 'under': 153, 'walk': 154, 'moment': 155, 'more': 156, 'reason': 157, 'oranges': 158, 'too': 159, 'wednesday': 160, 'mind': 161, 'will': 162, 'please': 163, 'order': 164, 'they': 165, 'reject': 166, 'sick': 167, 'close': 168, 'sort': 169, 'grab': 170, 'second': 171, 'later': 172, 'catch': 173, 'fault': 174, 'mom': 175, "''": 176, 'follow': 177, 'give': 178, 'last': 179, 'why': 180, 'continue': 181, 'guy': 182, 'knuckles': 183, 'seriously': 184, 'alright': 185, 'night': 186, 'does': 187, 'world': 188, 'window': 189, 'telling': 190, 'difficult': 191, 'psychiatrist': 192, 'says': 193, 'must': 194, 'calls': 195, 'deck': 196, 'waves': 197, 'respond': 198, 'instinctively': 199, 'turn': 200, 'upward': 201, 'pulled': 202, 'reaching': 203, 'slips': 204, 'circles': 205, 'coherent': 206, 'awake': 207, 'home': 208, 'snap': 209, 'killing': 210, 'sky': 211, 'laughter': 212, 'glimpse': 213, 'talk': 214, 'try': 215, 'diamonds': 216, 'schizophrenic': 217, 'lights': 218, 'drown': 219, 'click': 220, 'dancing': 221, 'shoes': 222, 'standing': 223, 'shadow': 224, 'crosses': 225, 'hypnotized': 226, 'impulse': 227, 'rihanna': 228, 'song': 229, 'mute': 230, 'space': 231, 'sweet': 232, 'whisper': 233, 'glitter': 234, 'reflecting': 235, 'thighs': 236, 'flips': 237, 'moves': 238, 'confidently': 239, 'extended': 240, 'seductive': 241, 'perfect': 242, 'accept': 243, 'pick': 244, 'party': 245, 'into': 246, 'off': 247, 'another': 248, 'ca': 249, 'memories': 250, 'work': 251, 'much': 252, 'were': 253, 'thing': 254, 'bowling': 255, 'keep': 256, 'okay': 257, 'metal': 258, 'distance': 259, 'these': 260, 'would': 261, 'everything': 262, "i'd": 263, 'trying': 264, 'reach': 265, 'memory': 266, 'well': 267, 'birthday': 268, 'phone': 269, 'seconds': 270, 'look': 271, 'morning': 272, 'maybe': 273, 'shut': 274, 'house': 275, 'shirt': 276, 'grandpa': 277, 'people': 278, 'pops': 279, 'laughs': 280, 'live': 281, 'making': 282, 'seemed': 283, 'still': 284, 'blue': 285, 'neighborhood': 286, 'push': 287, 'oh': 288, 'anywhere': 289, 'get': 290, 'meet': 291, 'hell': 292, 'sunday': 293, 'think': 294, 'its': 295, 'gave': 296, 'felt': 297, 'known': 298, 'saw': 299, 'grew': 300, 'together': 301, 'buddylist': 302, 'screen': 303, 'leave': 304, 'tried': 305, 'during': 306, 'dunno': 307, 'two': 308, 'say': 309, 'love': 310, 'because': 311, 'used': 312, 'fuck': 313, 'short': 314, 'once': 315, 'air': 316, 'figure': 317, 'sorry': 318, 'larry': 319, "he'd": 320, 'bad': 321, 'alone': 322, 'brought': 323, 'pussy': 324, 'yo': 325, 'them': 326, 'resolve': 327, 'herself': 328, 'project': 329, 'neuro': 330, 'psycho': 331, 'man': 332, 'now': 333, 'buttons': 334, 'stiffening': 335, 'closed': 336, 'long': 337, 'definitely': 338, 'silence': 339, 'again': 340, 'has': 341, 'weeks': 342, 'vanilla': 343, 'jolt': 344, 'mixed': 345, 'hit': 346, 'anyone': 347, 'lock': 348, 'recognize': 349, 'claim': 350, 'honesty': 351, 'distinct': 352, 'rattle': 353, 'impact': 354, 'forces': 355, 'jump': 356, 'pushed': 357, 'stood': 358, 'halfway': 359, 'shadows': 360, 'bloody': 361, 'wassup': 362, 'dude': 363, 'annoyed': 364, 'examine': 365, 'damaged': 366, 'dent': 367, 'else': 368, 'things': 369, 'through': 370, 'erase': 371, 'noise': 372, 're': 373, 'orient': 374, 'instincts': 375, 'carry': 376, 'circling': 377, 'childhood': 378, 'friend': 379, 'grandfather': 380, 'pain': 381, 'cookies': 382, 'deep': 383, 'front': 384, 'care': 385, 'gaze': 386, 'thank': 387, 'request': 388, 'uh': 389, 'someone': 390, 'jokes': 391, 'glad': 392, 'kick': 393, 'catholic': 394, 'best': 395, 'suppose': 396, 'shot': 397, 'palm': 398, 'fourth': 399, 'july': 400, 'uncle': 401, 'nervous': 402, 'wore': 403, 'slice': 404, 'joke': 405, 'kind': 406, 'place': 407, 'added': 408, 'chided': 409, 'trusting': 410, 'kinds': 411, 'add': 412, 'knowing': 413, 'especially': 414, 'pretty': 415, 'doubts': 416, '0': 417, 'almost': 418, 'repress': 419, "''unknown": 420, 'red': 421, 'breath': 422, 'different': 423, 'idle': 424, 'bonbons': 425, 'text': 426, 'shift': 427, 'beach': 428, 'heart': 429, 'child': 430, 'though': 431, 'steps': 432, 'take': 433, 'come': 434, 'champion': 435, 'monday': 436, 'beer': 437, 'pizza': 438, 'league': 439, 'missed': 440, 'sending': 441, 'daily': 442, 'delivery': 443, 'phrase': 444, 'repeated': 445, 'often': 446, 'better': 447, 'bake': 448, 'anymore': 449, 'inside': 450, 'awhile': 451, 'end': 452, 'soon': 453, 'heard': 454, 'sleep': 455, 'smiles': 456, 'school': 457, 'or': 458, 'blood': 459, "''cherie": 460, 'bleeding': 461, 'cher': 462, 'ryan': 463, 'hello': 464, 'strand': 465, 'way': 466, 'sight': 467, 'mean': 468, 'highway': 469, 'three': 470, 'mother': 471, 'drift': 472, 'little': 473, 'punch': 474, 'smile': 475, 'make': 476, 'probably': 477, 'rest': 478, 'new': 479, 'knows': 480, 'head': 481, 'waiting': 482, 'passing': 483, 'minutes': 484, 'crying': 485, 'dad': 486, 'pupils': 487, 'dilate': 488, 'dart': 489, 'crowds': 490, 'begin': 491, 'dizzy': 492, 'name': 493, 'gasped': 494, 'wonder': 495, 'asks': 496, 'repeat': 497, 'roll': 498, 'anger': 499, 'after': 500, 'buried': 501, 'constant': 502, 'hating': 503, 'local': 504, 'hero': 505, 'attended': 506, 'church': 507, 'every': 508, 'bring': 509, 'said': 510, 'less': 511, 'blur': 512, 'checking': 513, 'hotel': 514, 'dark': 515, 'desert': 516, 'cool': 517, 'wind': 518, 'ahead': 519, 'shimmering': 520, 'heavy': 521, 'dim': 522, 'housekeeping': 523, 'moan': 524, 'pillows': 525, 'sheets': 526, 'wrinkled': 527, 'suggesting': 528, 'here': 529, 'search': 530, 'note': 531, 'blinking': 532, 'also': 533, 'unknown': 534, 'number': 535, 'lived': 536, 'blocks': 537, 'leading': 538, 'wallpaper': 539, 'walks': 540, 'water': 541, 'gold': 542, 'flecks': 543, 'meets': 544, 'yearns': 545, 'grabs': 546, 'ones': 547, 'baked': 548, 'invite': 549, 'sprinkles': 550, 'forgetful': 551, 'reaches': 552, 'kiss': 553, 'pull': 554, 'driveway': 555, 'slowly': 556, 'becomes': 557, 'mirage': 558, 'lost': 559, 'beyond': 560, 'platinum': 561, 'stretch': 562, 'concrete': 563, 'against': 564, 'where': 565, 'believe': 566, 'suddenly': 567, 'fell': 568, 'scent': 569, 'reminded': 570, 'walking': 571, 'old': 572, 'shop': 573, 'area': 574, 'white': 575, 'awning': 576, 'lungs': 577, 'tomorrow': 578, 'loser': 579, 'other': 580, 'slams': 581, 'kill': 582, 'fight': 583, 'help': 584, 'delete': 585, "she'd": 586, 'having': 587, 'covers': 588, 'between': 589, 'yeah': 590, 'starts': 591, 'actually': 592, 'happened': 593, 'involve': 594, 'bowl': 595, 'prefers': 596, 'chatting': 597, 'communication': 598, 'hates': 599, 'polar': 600, 'opposites': 601, 'prioritized': 602, 'fingers': 603, 'reeally': 604, 'guiltyabout': 605, 'im': 606, 'inlove': 607, 'ithink': 608, 'club': 609, 'wet': 610, 'hinders': 611, 'vision': 612, 'sharp': 613, 'pierces': 614, 'comes': 615, 'view': 616, 'check': 617, 'pause': 618, 'ignore': 619, 'santa': 620, 'claus': 621, "''me": 622, 'fine': 623, '2': 624, 'hang': 625, 'loved': 626, 'quiet': 627, "c'mon": 628, 'climb': 629, 'wait': 630, 'stop': 631, 'made': 632, 'makes': 633, 'call': 634, 'appeared': 635, 'guilty': 636, 'deal': 637, 'guess': 638, 'looked': 639, 'power': 640, 'worked': 641, 'father': 642, 'routine': 643, 'hour': 644, 'afternoon': 645, 'food': 646, 'stained': 647, 'rotten': 648, 'reeked': 649, 'mold': 650, 'lonely': 651, 'kid': 652, 'nothing': 653, 'abused': 654, 'stronger': 655, 'talking': 656, 'down': 657, 'week': 658, 'knew': 659, 'confessed': 660, 'figured': 661, 'cluster': 662, 'reached': 663, 'same': 664, 'touch': 665, 'those': 666, 'hated': 667, 'swing': 668, 'wanted': 669, 'level': 670, 'smiling': 671, 'bleed': 672, 'yea': 673, 'understand': 674, 'everywhere': 675, 'threw': 676, 'turned': 677, 'messaged': 678, 'while': 679, 'dood': 680, 'nice': 681, 'friends': 682, 'bday': 683, 'tonite': 684, 'ace': 685, 'join': 686, 'ducks': 687, 'girl': 688, 'excuse': 689, 'pushes': 690, 'choice': 691, 'hours': 692, 'louder': 693, 'miss': 694, 'already': 695, 'smell': 696, 'compose': 697, 'luv': 698, 'particularly': 699, 'tuesday': 700, 'start': 701, 'tears': 702, 'apologize': 703, 'change': 704, 'thinking': 705, 'enough': 706, 'grin': 707, 'bear': 708, 'force': 709, 'chick': 710, 'goodnight': 711, 'came': 712, 'music': 713, 'reply': 714, 'sinking': 715, 'curb': 716, 'upset': 717, 'heck': 718, 'adds': 719, 'person': 720, 'without': 721, 'giving': 722, 'heads': 723, "freakin'": 724, 'stupid': 725, 'getting': 726, 'virus': 727, 'reformat': 728, 'pissed': 729, 'tired': 730, 'crash': 731, 'pillow': 732, 'vibrate': 733, 'groggily': 734, 'move': 735, 'any': 736, 'times': 737, 'falls': 738, 'supposed': 739, 'hmmm': 740, 'scars': 741, 'remove': 742, 'hits': 743, 'asked': 744, 'wrong': 745, 'articulate': 746, 'told': 747, 'munching': 748, 'candies': 749, 'events': 750, 'kinder': 751, 'worry': 752, 'son': 753, 'genie': 754, 'widened': 755, 'laughed': 756, 'winked': 757, 'quick': 758, 'ask': 759, 'betrayal': 760, 'picks': 761, 'ring': 762, 'wherever': 763, 'somewhere': 764, 'hesitates': 765, 'voice': 766, 'sounds': 767, 'shaky': 768, 'realize': 769, 'deeply': 770, 'defensive': 771, 'took': 772, 'hands': 773, 'trouble': 774, 'stand': 775, 'seeking': 776, 'refuge': 777, 'pounding': 778, 'delve': 779, 'deeper': 780, 'psycologist': 781, 'children': 782, 'imagination': 783, 'learning': 784, 'real': 785, 'stories': 786, 'fair': 787, 'betrayed': 788, 'abuse': 789, 'leaving': 790, 'broken': 791, 'hate': 792, 'grow': 793, 'swell': 794, 'takes': 795, 'personalities': 796, 'idea': 797, 'ever': 798, 'lately': 799, 'shutting': 800, 'hmm': 801, 'bothering': 802, 'cranky': 803, 'wound': 804, 'doctor': 805, 'bowled': 806, '7': 807, 'multiple': 808, 'personality': 809, 'disorder': 810, 'audible': 811, 'tug': 812, 'feels': 813, 'enternity': 814, 'responds': 815, 'great': 816, 'bus': 817, 'quickly': 818, 'convince': 819, 'otherwise': 820, 'yes': 821, 'glass': 822, 'raises': 823, 'eyebrow': 824, 'bar': 825, 'wish': 826, 'twirls': 827, 'submarine': 828, 'plays': 829, 'softly': 830, 'background': 831, 'screaming': 832, 'dreaded': 833, 'chipped': 834, 'paint': 835, 'sound': 836, 'faint': 837, 'hint': 838, 'soap': 839, 'uses': 840, 'looking': 841, 'dried': 842, 'cheeks': 843, 'part': 844, 'went': 845, 'life': 846, 'backward': 847, 'nose': 848, 'table': 849, 'flinch': 850, 'grins': 851, 'naturedly': 852, 'taken': 853, 'kids': 854, 'protect': 855, 'bullies': 856, 'bros': 857, 'gotta': 858, 'each': 859, 'confront': 860, '5': 861, 'stalking': 862, 'listen': 863, 'freak': 864, 'leaver': 865, 'dont': 866, 'swear': 867, 'keys': 868, 'questions': 869, 'happen': 870, 'doe': 871, 'ame': 872, 'ringing': 873, 'stomach': 874, 'wipe': 875, 'blame': 876, 'chill': 877, 'ok': 878, 'betta': 879, 'lame': 880, 'leaves': 881, 'sitting': 882, 'parking': 883, 'lot': 884, 'conversation': 885, 'attitude': 886, 'management': 887, 'called': 888, 'smelled': 889, 'recognized': 890, 'classes': 891, 'glare': 892, 'sun': 893, 'hurting': 894, 'hers': 895, 'minute': 896, 'step': 897, 'outside': 898, 'wearing': 899, 'summer': 900, 'dress': 901, 'daisies': 902, 'speechless': 903, 'drive': 904, 'hop': 905, 'car': 906, 'faster': 907, 'flash': 908, 'laugh': 909, 'throws': 910, 'fighting': 911, 'angrier': 912, 'their': 913, 'means': 914, 'point': 915, 'violence': 916, 'families': 917, 'apart': 918, 'hurts': 919, 'yourself': 920, 'reluctantly': 921, 'badly': 922, 'brings': 923, 'flood': 924, 'reminds': 925, 'least': 926, 'carries': 927, 'ton': 928, 'baggage': 929, 'closest': 930, 'kleenex': 931, 'box': 932, 'looks': 933, 'points': 934, 'mutter': 935, 'cheating': 936, 'afterall': 937, 'right': 938, 'breaks': 939, 'scared': 940, 'remembering': 941, 'mirror': 942, 'painful': 943, 'seem': 944, 'drag': 945, 'pressure': 946, 'tangible': 947, 'chest': 948, 'somehow': 949, 'karma': 950, 'slam': 951, 'turning': 952, 'notice': 953, 'bloodshot': 954, 'pretending': 955, 'confused': 956, 'piece': 957, 'sips': 958, 'quietly': 959, 'sorting': 960, 'doing': 961, 'broad': 962, 'cry': 963, 'instance': 964, 'tries': 965, 'shoot': 966, 'mana': 967, 'gently': 968, 'brushes': 969, 'finges': 970, 'upon': 971, 'battle': 972, 'dammit': 973, 'keyboard': 974, 'wall': 975, 'letter': 976, "'r'": 977, 'chewing': 978, 'lower': 979, 'lip': 980, 'pissing': 981, 'gets': 982, 'than': 983, 'capable': 984, 'taking': 985, 'himself': 986, 'coward': 987, 'kidding': 988, 'sting': 989, 'mechanism': 990, 'accused': 991, 'send': 992, 'occur': 993, 'until': 994, 'grumbling': 995, 'planet': 996, 'living': 997, 'shit': 998, 'whining': 999, 'narrows': 1000, 'inches': 1001, 'sneers': 1002, 'race': 1003, 'passenger': 1004, 'seat': 1005, 'ruining': 1006, 'shake': 1007, 'streetlights': 1008, 'blinds': 1009, 'deleted': 1010, 'accident': 1011, 'combintation': 1012, 'pressed': 1013, 'got': 1014, 'rid': 1015, 'lightning': 1016, 'clean': 1017, "ol'": 1018, 'gramps': 1019, 'headlights': 1020, 'scream': 1021, 'top': 1022, 'horrible': 1023, 'break': 1024, 'brush': 1025, 'pressing': 1026, 'throbbing': 1027, 'draws': 1028, 'suggest': 1029, 'stopping': 1030, 'hesitate': 1031, 'wheel': 1032, 'free': 1033, 'accelerate': 1034, 'giggles': 1035, 'turns': 1036, 'prison': 1037, 'lord': 1038, "'cause": 1039, 'misery': 1040, 'exhilirated': 1041, 'locked': 1042, 'crazy': 1043, 'far': 1044, 'heaven': 1045, 'spots': 1046, 'brighter': 1047, 'yellows': 1048, 'covering': 1049, 'blues': 1050, 'incident': 1051, 'hope': 1052, 'angry': 1053, 'cover': 1054, 'fear': 1055, 'engulfs': 1056, 'us': 1057, 'following': 1058, 'surprising': 1059, 'snorted': 1060, "fuckin'": 1061, 'unpleasant': 1062, 'most': 1063, 'likely': 1064, 'triggered': 1065, 'fond': 1066, 'touchy': 1067, 'feely': 1068, 'may': 1069, 'dug': 1070, 'room': 1071, 'objectively': 1072, 'speaking': 1073, 'matter': 1074, 'became': 1075, 'increasingly': 1076, 'harder': 1077, 'perhaps': 1078, 'sweat': 1079, 'drips': 1080, 'palms': 1081, 'might': 1082, 'insane': 1083, 'complain': 1084, 'hi': 1085, 'dinner': 1086, 'tonight': 1087, 'reservations': 1088, 'ago': 1089, 'sucks': 1090, 'lying': 1091, 'weird': 1092, 'verge': 1093, 'mental': 1094, 'breakdown': 1095, 'ya': 1096, 'sigh': 1097, 'promise': 1098, 'stay': 1099, 'mad': 1100, 'fun': 1101, 'needed': 1102, 'except': 1103, 'urgent': 1104, 'cuz': 1105, 'fuckin': 1106, 'whiner': 1107, 'drop': 1108, 'ride': 1109, 'tell': 1110, 'girlfriend': 1111, 'whipped': 1112, 'ponder': 1113, 'words': 1114, 'repeating': 1115, 'ignores': 1116, 'lunge': 1117, 'dialing': 1118, 'silent': 1119}
+INFO:pyfiction.agents.ssaqn_agent:Creating a model based on 1119 unique tokens.
+INFO:pyfiction.agents.ssaqn_agent:Importing pre-trained word embeddings.
+INFO:pyfiction.agents.ssaqn_agent:Initializing tokens by loading them from vocabulary.txt
+INFO:pyfiction.agents.ssaqn_agent:Tokenizer: 1119 words - {'i': 1, 'the': 2, 'to': 3, 'a': 4, "'s": 5, 'it': 6, 'my': 7, 'and': 8, 'me': 9, 'not': 10, 'her': 11, 'on': 12, 'in': 13, 'you': 14, 'of': 15, 'she': 16, 'for': 17, 'am': 18, 'that': 19, 'was': 20, 'cherie': 21, 'do': 22, 'he': 23, 'with': 24, 'is': 25, 'up': 26, 'but': 27, 'from': 28, 'out': 29, 'html': 30, 'adam': 31, 'as': 32, 'are': 33, 'eyes': 34, '3': 35, 'one': 36, 'focus': 37, 'could': 38, 'alphaq': 39, '1': 40, '4': 41, 'an': 42, 'knock': 43, 'be': 44, 'god': 45, 'who': 46, 'want': 47, 'open': 48, 'there': 49, 'remember': 50, 'hand': 51, 'hair': 52, 'this': 53, 'have': 54, 'like': 55, 'away': 56, 'if': 57, 'sent': 58, 'did': 59, 'some': 60, 'color': 61, 'style': 62, 'gray': 63, 'breathe': 64, 'what': 65, 'need': 66, 'sam': 67, 'orange': 68, 'side': 69, 'only': 70, 'going': 71, 'time': 72, 'feel': 73, 'know': 74, 'go': 75, 'honest': 76, 'let': 77, 'face': 78, 'really': 79, 'something': 80, 'no': 81, 'about': 82, 'him': 83, 'chance': 84, 'saved': 85, 'so': 86, 'message': 87, 'always': 88, 'back': 89, 'had': 90, 'first': 91, 'hard': 92, 'just': 93, 'should': 94, 'behind': 95, 'we': 96, 'see': 97, 'his': 98, 'how': 99, 'myself': 100, 'left': 101, 'never': 102, 'then': 103, 'sure': 104, 'being': 105, 'invitation': 106, 'by': 107, 'at': 108, 'forget': 109, 'even': 110, 'john': 111, 'all': 112, 'u': 113, 'save': 114, 'yellow': 115, 'bed': 116, 'hey': 117, 'lucretia': 118, 'when': 119, 'before': 120, 'towards': 121, 'day': 122, 'door': 123, 'been': 124, 'hold': 125, 'computer': 126, 'your': 127, 'hear': 128, 'over': 129, 'yet': 130, 'thought': 131, 'light': 132, 'feelings': 133, 'around': 134, 'longer': 135, 'mine': 136, 'whatever': 137, 'anything': 138, 'seems': 139, 'met': 140, 'good': 141, 'hurt': 142, 'can': 143, 'guilt': 144, 'feeling': 145, 'bitch': 146, 'sometimes': 147, 'few': 148, 'late': 149, 'barely': 150, 'deserve': 151, 'today': 152, 'under': 153, 'walk': 154, 'moment': 155, 'more': 156, 'reason': 157, 'oranges': 158, 'too': 159, 'wednesday': 160, 'mind': 161, 'will': 162, 'please': 163, 'order': 164, 'they': 165, 'reject': 166, 'sick': 167, 'close': 168, 'sort': 169, 'grab': 170, 'second': 171, 'later': 172, 'catch': 173, 'fault': 174, 'mom': 175, "''": 176, 'follow': 177, 'give': 178, 'last': 179, 'why': 180, 'continue': 181, 'guy': 182, 'knuckles': 183, 'seriously': 184, 'alright': 185, 'night': 186, 'does': 187, 'world': 188, 'window': 189, 'telling': 190, 'difficult': 191, 'psychiatrist': 192, 'says': 193, 'must': 194, 'calls': 195, 'deck': 196, 'waves': 197, 'respond': 198, 'instinctively': 199, 'turn': 200, 'upward': 201, 'pulled': 202, 'reaching': 203, 'slips': 204, 'circles': 205, 'coherent': 206, 'awake': 207, 'home': 208, 'snap': 209, 'killing': 210, 'sky': 211, 'laughter': 212, 'glimpse': 213, 'talk': 214, 'try': 215, 'diamonds': 216, 'schizophrenic': 217, 'lights': 218, 'drown': 219, 'click': 220, 'dancing': 221, 'shoes': 222, 'standing': 223, 'shadow': 224, 'crosses': 225, 'hypnotized': 226, 'impulse': 227, 'rihanna': 228, 'song': 229, 'mute': 230, 'space': 231, 'sweet': 232, 'whisper': 233, 'glitter': 234, 'reflecting': 235, 'thighs': 236, 'flips': 237, 'moves': 238, 'confidently': 239, 'extended': 240, 'seductive': 241, 'perfect': 242, 'accept': 243, 'pick': 244, 'party': 245, 'into': 246, 'off': 247, 'another': 248, 'ca': 249, 'memories': 250, 'work': 251, 'much': 252, 'were': 253, 'thing': 254, 'bowling': 255, 'keep': 256, 'okay': 257, 'metal': 258, 'distance': 259, 'these': 260, 'would': 261, 'everything': 262, "i'd": 263, 'trying': 264, 'reach': 265, 'memory': 266, 'well': 267, 'birthday': 268, 'phone': 269, 'seconds': 270, 'look': 271, 'morning': 272, 'maybe': 273, 'shut': 274, 'house': 275, 'shirt': 276, 'grandpa': 277, 'people': 278, 'pops': 279, 'laughs': 280, 'live': 281, 'making': 282, 'seemed': 283, 'still': 284, 'blue': 285, 'neighborhood': 286, 'push': 287, 'oh': 288, 'anywhere': 289, 'get': 290, 'meet': 291, 'hell': 292, 'sunday': 293, 'think': 294, 'its': 295, 'gave': 296, 'felt': 297, 'known': 298, 'saw': 299, 'grew': 300, 'together': 301, 'buddylist': 302, 'screen': 303, 'leave': 304, 'tried': 305, 'during': 306, 'dunno': 307, 'two': 308, 'say': 309, 'love': 310, 'because': 311, 'used': 312, 'fuck': 313, 'short': 314, 'once': 315, 'air': 316, 'figure': 317, 'sorry': 318, 'larry': 319, "he'd": 320, 'bad': 321, 'alone': 322, 'brought': 323, 'pussy': 324, 'yo': 325, 'them': 326, 'resolve': 327, 'herself': 328, 'project': 329, 'neuro': 330, 'psycho': 331, 'man': 332, 'now': 333, 'buttons': 334, 'stiffening': 335, 'closed': 336, 'long': 337, 'definitely': 338, 'silence': 339, 'again': 340, 'has': 341, 'weeks': 342, 'vanilla': 343, 'jolt': 344, 'mixed': 345, 'hit': 346, 'anyone': 347, 'lock': 348, 'recognize': 349, 'claim': 350, 'honesty': 351, 'distinct': 352, 'rattle': 353, 'impact': 354, 'forces': 355, 'jump': 356, 'pushed': 357, 'stood': 358, 'halfway': 359, 'shadows': 360, 'bloody': 361, 'wassup': 362, 'dude': 363, 'annoyed': 364, 'examine': 365, 'damaged': 366, 'dent': 367, 'else': 368, 'things': 369, 'through': 370, 'erase': 371, 'noise': 372, 're': 373, 'orient': 374, 'instincts': 375, 'carry': 376, 'circling': 377, 'childhood': 378, 'friend': 379, 'grandfather': 380, 'pain': 381, 'cookies': 382, 'deep': 383, 'front': 384, 'care': 385, 'gaze': 386, 'thank': 387, 'request': 388, 'uh': 389, 'someone': 390, 'jokes': 391, 'glad': 392, 'kick': 393, 'catholic': 394, 'best': 395, 'suppose': 396, 'shot': 397, 'palm': 398, 'fourth': 399, 'july': 400, 'uncle': 401, 'nervous': 402, 'wore': 403, 'slice': 404, 'joke': 405, 'kind': 406, 'place': 407, 'added': 408, 'chided': 409, 'trusting': 410, 'kinds': 411, 'add': 412, 'knowing': 413, 'especially': 414, 'pretty': 415, 'doubts': 416, '0': 417, 'almost': 418, 'repress': 419, "''unknown": 420, 'red': 421, 'breath': 422, 'different': 423, 'idle': 424, 'bonbons': 425, 'text': 426, 'shift': 427, 'beach': 428, 'heart': 429, 'child': 430, 'though': 431, 'steps': 432, 'take': 433, 'come': 434, 'champion': 435, 'monday': 436, 'beer': 437, 'pizza': 438, 'league': 439, 'missed': 440, 'sending': 441, 'daily': 442, 'delivery': 443, 'phrase': 444, 'repeated': 445, 'often': 446, 'better': 447, 'bake': 448, 'anymore': 449, 'inside': 450, 'awhile': 451, 'end': 452, 'soon': 453, 'heard': 454, 'sleep': 455, 'smiles': 456, 'school': 457, 'or': 458, 'blood': 459, "''cherie": 460, 'bleeding': 461, 'cher': 462, 'ryan': 463, 'hello': 464, 'strand': 465, 'way': 466, 'sight': 467, 'mean': 468, 'highway': 469, 'three': 470, 'mother': 471, 'drift': 472, 'little': 473, 'punch': 474, 'smile': 475, 'make': 476, 'probably': 477, 'rest': 478, 'new': 479, 'knows': 480, 'head': 481, 'waiting': 482, 'passing': 483, 'minutes': 484, 'crying': 485, 'dad': 486, 'pupils': 487, 'dilate': 488, 'dart': 489, 'crowds': 490, 'begin': 491, 'dizzy': 492, 'name': 493, 'gasped': 494, 'wonder': 495, 'asks': 496, 'repeat': 497, 'roll': 498, 'anger': 499, 'after': 500, 'buried': 501, 'constant': 502, 'hating': 503, 'local': 504, 'hero': 505, 'attended': 506, 'church': 507, 'every': 508, 'bring': 509, 'said': 510, 'less': 511, 'blur': 512, 'checking': 513, 'hotel': 514, 'dark': 515, 'desert': 516, 'cool': 517, 'wind': 518, 'ahead': 519, 'shimmering': 520, 'heavy': 521, 'dim': 522, 'housekeeping': 523, 'moan': 524, 'pillows': 525, 'sheets': 526, 'wrinkled': 527, 'suggesting': 528, 'here': 529, 'search': 530, 'note': 531, 'blinking': 532, 'also': 533, 'unknown': 534, 'number': 535, 'lived': 536, 'blocks': 537, 'leading': 538, 'wallpaper': 539, 'walks': 540, 'water': 541, 'gold': 542, 'flecks': 543, 'meets': 544, 'yearns': 545, 'grabs': 546, 'ones': 547, 'baked': 548, 'invite': 549, 'sprinkles': 550, 'forgetful': 551, 'reaches': 552, 'kiss': 553, 'pull': 554, 'driveway': 555, 'slowly': 556, 'becomes': 557, 'mirage': 558, 'lost': 559, 'beyond': 560, 'platinum': 561, 'stretch': 562, 'concrete': 563, 'against': 564, 'where': 565, 'believe': 566, 'suddenly': 567, 'fell': 568, 'scent': 569, 'reminded': 570, 'walking': 571, 'old': 572, 'shop': 573, 'area': 574, 'white': 575, 'awning': 576, 'lungs': 577, 'tomorrow': 578, 'loser': 579, 'other': 580, 'slams': 581, 'kill': 582, 'fight': 583, 'help': 584, 'delete': 585, "she'd": 586, 'having': 587, 'covers': 588, 'between': 589, 'yeah': 590, 'starts': 591, 'actually': 592, 'happened': 593, 'involve': 594, 'bowl': 595, 'prefers': 596, 'chatting': 597, 'communication': 598, 'hates': 599, 'polar': 600, 'opposites': 601, 'prioritized': 602, 'fingers': 603, 'reeally': 604, 'guiltyabout': 605, 'im': 606, 'inlove': 607, 'ithink': 608, 'club': 609, 'wet': 610, 'hinders': 611, 'vision': 612, 'sharp': 613, 'pierces': 614, 'comes': 615, 'view': 616, 'check': 617, 'pause': 618, 'ignore': 619, 'santa': 620, 'claus': 621, "''me": 622, 'fine': 623, '2': 624, 'hang': 625, 'loved': 626, 'quiet': 627, "c'mon": 628, 'climb': 629, 'wait': 630, 'stop': 631, 'made': 632, 'makes': 633, 'call': 634, 'appeared': 635, 'guilty': 636, 'deal': 637, 'guess': 638, 'looked': 639, 'power': 640, 'worked': 641, 'father': 642, 'routine': 643, 'hour': 644, 'afternoon': 645, 'food': 646, 'stained': 647, 'rotten': 648, 'reeked': 649, 'mold': 650, 'lonely': 651, 'kid': 652, 'nothing': 653, 'abused': 654, 'stronger': 655, 'talking': 656, 'down': 657, 'week': 658, 'knew': 659, 'confessed': 660, 'figured': 661, 'cluster': 662, 'reached': 663, 'same': 664, 'touch': 665, 'those': 666, 'hated': 667, 'swing': 668, 'wanted': 669, 'level': 670, 'smiling': 671, 'bleed': 672, 'yea': 673, 'understand': 674, 'everywhere': 675, 'threw': 676, 'turned': 677, 'messaged': 678, 'while': 679, 'dood': 680, 'nice': 681, 'friends': 682, 'bday': 683, 'tonite': 684, 'ace': 685, 'join': 686, 'ducks': 687, 'girl': 688, 'excuse': 689, 'pushes': 690, 'choice': 691, 'hours': 692, 'louder': 693, 'miss': 694, 'already': 695, 'smell': 696, 'compose': 697, 'luv': 698, 'particularly': 699, 'tuesday': 700, 'start': 701, 'tears': 702, 'apologize': 703, 'change': 704, 'thinking': 705, 'enough': 706, 'grin': 707, 'bear': 708, 'force': 709, 'chick': 710, 'goodnight': 711, 'came': 712, 'music': 713, 'reply': 714, 'sinking': 715, 'curb': 716, 'upset': 717, 'heck': 718, 'adds': 719, 'person': 720, 'without': 721, 'giving': 722, 'heads': 723, "freakin'": 724, 'stupid': 725, 'getting': 726, 'virus': 727, 'reformat': 728, 'pissed': 729, 'tired': 730, 'crash': 731, 'pillow': 732, 'vibrate': 733, 'groggily': 734, 'move': 735, 'any': 736, 'times': 737, 'falls': 738, 'supposed': 739, 'hmmm': 740, 'scars': 741, 'remove': 742, 'hits': 743, 'asked': 744, 'wrong': 745, 'articulate': 746, 'told': 747, 'munching': 748, 'candies': 749, 'events': 750, 'kinder': 751, 'worry': 752, 'son': 753, 'genie': 754, 'widened': 755, 'laughed': 756, 'winked': 757, 'quick': 758, 'ask': 759, 'betrayal': 760, 'picks': 761, 'ring': 762, 'wherever': 763, 'somewhere': 764, 'hesitates': 765, 'voice': 766, 'sounds': 767, 'shaky': 768, 'realize': 769, 'deeply': 770, 'defensive': 771, 'took': 772, 'hands': 773, 'trouble': 774, 'stand': 775, 'seeking': 776, 'refuge': 777, 'pounding': 778, 'delve': 779, 'deeper': 780, 'psycologist': 781, 'children': 782, 'imagination': 783, 'learning': 784, 'real': 785, 'stories': 786, 'fair': 787, 'betrayed': 788, 'abuse': 789, 'leaving': 790, 'broken': 791, 'hate': 792, 'grow': 793, 'swell': 794, 'takes': 795, 'personalities': 796, 'idea': 797, 'ever': 798, 'lately': 799, 'shutting': 800, 'hmm': 801, 'bothering': 802, 'cranky': 803, 'wound': 804, 'doctor': 805, 'bowled': 806, '7': 807, 'multiple': 808, 'personality': 809, 'disorder': 810, 'audible': 811, 'tug': 812, 'feels': 813, 'enternity': 814, 'responds': 815, 'great': 816, 'bus': 817, 'quickly': 818, 'convince': 819, 'otherwise': 820, 'yes': 821, 'glass': 822, 'raises': 823, 'eyebrow': 824, 'bar': 825, 'wish': 826, 'twirls': 827, 'submarine': 828, 'plays': 829, 'softly': 830, 'background': 831, 'screaming': 832, 'dreaded': 833, 'chipped': 834, 'paint': 835, 'sound': 836, 'faint': 837, 'hint': 838, 'soap': 839, 'uses': 840, 'looking': 841, 'dried': 842, 'cheeks': 843, 'part': 844, 'went': 845, 'life': 846, 'backward': 847, 'nose': 848, 'table': 849, 'flinch': 850, 'grins': 851, 'naturedly': 852, 'taken': 853, 'kids': 854, 'protect': 855, 'bullies': 856, 'bros': 857, 'gotta': 858, 'each': 859, 'confront': 860, '5': 861, 'stalking': 862, 'listen': 863, 'freak': 864, 'leaver': 865, 'dont': 866, 'swear': 867, 'keys': 868, 'questions': 869, 'happen': 870, 'doe': 871, 'ame': 872, 'ringing': 873, 'stomach': 874, 'wipe': 875, 'blame': 876, 'chill': 877, 'ok': 878, 'betta': 879, 'lame': 880, 'leaves': 881, 'sitting': 882, 'parking': 883, 'lot': 884, 'conversation': 885, 'attitude': 886, 'management': 887, 'called': 888, 'smelled': 889, 'recognized': 890, 'classes': 891, 'glare': 892, 'sun': 893, 'hurting': 894, 'hers': 895, 'minute': 896, 'step': 897, 'outside': 898, 'wearing': 899, 'summer': 900, 'dress': 901, 'daisies': 902, 'speechless': 903, 'drive': 904, 'hop': 905, 'car': 906, 'faster': 907, 'flash': 908, 'laugh': 909, 'throws': 910, 'fighting': 911, 'angrier': 912, 'their': 913, 'means': 914, 'point': 915, 'violence': 916, 'families': 917, 'apart': 918, 'hurts': 919, 'yourself': 920, 'reluctantly': 921, 'badly': 922, 'brings': 923, 'flood': 924, 'reminds': 925, 'least': 926, 'carries': 927, 'ton': 928, 'baggage': 929, 'closest': 930, 'kleenex': 931, 'box': 932, 'looks': 933, 'points': 934, 'mutter': 935, 'cheating': 936, 'afterall': 937, 'right': 938, 'breaks': 939, 'scared': 940, 'remembering': 941, 'mirror': 942, 'painful': 943, 'seem': 944, 'drag': 945, 'pressure': 946, 'tangible': 947, 'chest': 948, 'somehow': 949, 'karma': 950, 'slam': 951, 'turning': 952, 'notice': 953, 'bloodshot': 954, 'pretending': 955, 'confused': 956, 'piece': 957, 'sips': 958, 'quietly': 959, 'sorting': 960, 'doing': 961, 'broad': 962, 'cry': 963, 'instance': 964, 'tries': 965, 'shoot': 966, 'mana': 967, 'gently': 968, 'brushes': 969, 'finges': 970, 'upon': 971, 'battle': 972, 'dammit': 973, 'keyboard': 974, 'wall': 975, 'letter': 976, "'r'": 977, 'chewing': 978, 'lower': 979, 'lip': 980, 'pissing': 981, 'gets': 982, 'than': 983, 'capable': 984, 'taking': 985, 'himself': 986, 'coward': 987, 'kidding': 988, 'sting': 989, 'mechanism': 990, 'accused': 991, 'send': 992, 'occur': 993, 'until': 994, 'grumbling': 995, 'planet': 996, 'living': 997, 'shit': 998, 'whining': 999, 'narrows': 1000, 'inches': 1001, 'sneers': 1002, 'race': 1003, 'passenger': 1004, 'seat': 1005, 'ruining': 1006, 'shake': 1007, 'streetlights': 1008, 'blinds': 1009, 'deleted': 1010, 'accident': 1011, 'combintation': 1012, 'pressed': 1013, 'got': 1014, 'rid': 1015, 'lightning': 1016, 'clean': 1017, "ol'": 1018, 'gramps': 1019, 'headlights': 1020, 'scream': 1021, 'top': 1022, 'horrible': 1023, 'break': 1024, 'brush': 1025, 'pressing': 1026, 'throbbing': 1027, 'draws': 1028, 'suggest': 1029, 'stopping': 1030, 'hesitate': 1031, 'wheel': 1032, 'free': 1033, 'accelerate': 1034, 'giggles': 1035, 'turns': 1036, 'prison': 1037, 'lord': 1038, "'cause": 1039, 'misery': 1040, 'exhilirated': 1041, 'locked': 1042, 'crazy': 1043, 'far': 1044, 'heaven': 1045, 'spots': 1046, 'brighter': 1047, 'yellows': 1048, 'covering': 1049, 'blues': 1050, 'incident': 1051, 'hope': 1052, 'angry': 1053, 'cover': 1054, 'fear': 1055, 'engulfs': 1056, 'us': 1057, 'following': 1058, 'surprising': 1059, 'snorted': 1060, "fuckin'": 1061, 'unpleasant': 1062, 'most': 1063, 'likely': 1064, 'triggered': 1065, 'fond': 1066, 'touchy': 1067, 'feely': 1068, 'may': 1069, 'dug': 1070, 'room': 1071, 'objectively': 1072, 'speaking': 1073, 'matter': 1074, 'became': 1075, 'increasingly': 1076, 'harder': 1077, 'perhaps': 1078, 'sweat': 1079, 'drips': 1080, 'palms': 1081, 'might': 1082, 'insane': 1083, 'complain': 1084, 'hi': 1085, 'dinner': 1086, 'tonight': 1087, 'reservations': 1088, 'ago': 1089, 'sucks': 1090, 'lying': 1091, 'weird': 1092, 'verge': 1093, 'mental': 1094, 'breakdown': 1095, 'ya': 1096, 'sigh': 1097, 'promise': 1098, 'stay': 1099, 'mad': 1100, 'fun': 1101, 'needed': 1102, 'except': 1103, 'urgent': 1104, 'cuz': 1105, 'fuckin': 1106, 'whiner': 1107, 'drop': 1108, 'ride': 1109, 'tell': 1110, 'girlfriend': 1111, 'whipped': 1112, 'ponder': 1113, 'words': 1114, 'repeating': 1115, 'ignores': 1116, 'lunge': 1117, 'dialing': 1118, 'silent': 1119}
+INFO:pyfiction.agents.ssaqn_agent:Creating a model based on 1119 unique tokens.
+INFO:pyfiction.agents.ssaqn_agent:Importing pre-trained word embeddings.
+INFO:pyfiction.agents.ssaqn_agent:Imported embeddings are using 2195884 word vectors.
+WARNING:pyfiction.agents.ssaqn_agent:Word not found in embeddings: alphaq
+WARNING:pyfiction.agents.ssaqn_agent:Word not found in embeddings: i'd
+WARNING:pyfiction.agents.ssaqn_agent:Word not found in embeddings: he'd
+WARNING:pyfiction.agents.ssaqn_agent:Word not found in embeddings: ''unknown
+WARNING:pyfiction.agents.ssaqn_agent:Word not found in embeddings: ''cherie
+WARNING:pyfiction.agents.ssaqn_agent:Word not found in embeddings: she'd
+WARNING:pyfiction.agents.ssaqn_agent:Word not found in embeddings: guiltyabout
+WARNING:pyfiction.agents.ssaqn_agent:Word not found in embeddings: ''me
+WARNING:pyfiction.agents.ssaqn_agent:Word not found in embeddings: freakin'
+WARNING:pyfiction.agents.ssaqn_agent:Word not found in embeddings: 'r'
+WARNING:pyfiction.agents.ssaqn_agent:Word not found in embeddings: combintation
+WARNING:pyfiction.agents.ssaqn_agent:Word not found in embeddings: fuckin'
+WARNING:__main__:Couldn't print the model image: Failed to import pydot. You must install pydot and graphviz for `pydotprint` to work.
+INFO:__main__:Epoch 0
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 0, epsilon = 1.0000
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 1, epsilon = 0.9900
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 2, epsilon = 0.9801
+INFO:pyfiction.agents.ssaqn_agent:New unique positive experience - total 1.
+Reward: 20.0, state: suddenly i can see the sky   "john  hang in there "   cherie pul...
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.3
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 3, epsilon = 0.9703
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 4, epsilon = 0.9606
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 5, epsilon = 0.9510
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 6, epsilon = 0.9415
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 7, epsilon = 0.9321
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 8, epsilon = 0.9227
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 9, epsilon = 0.9135
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 10, epsilon = 0.9044
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 11, epsilon = 0.8953
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 12, epsilon = 0.8864
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 13, epsilon = 0.8775
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 14, epsilon = 0.8687
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 15, epsilon = 0.8601
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 16, epsilon = 0.8515
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 17, epsilon = 0.8429
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 18, epsilon = 0.8345
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 19, epsilon = 0.8262
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.8
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 20, epsilon = 0.8179
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 21, epsilon = 0.8097
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 22, epsilon = 0.8016
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 23, epsilon = 0.7936
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 24, epsilon = 0.7857
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 25, epsilon = 0.7778
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.8
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 26, epsilon = 0.7700
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 27, epsilon = 0.7623
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 28, epsilon = 0.7547
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.3
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 29, epsilon = 0.7472
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 30, epsilon = 0.7397
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 31, epsilon = 0.7323
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 32, epsilon = 0.7250
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 33, epsilon = 0.7177
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 18.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 34, epsilon = 0.7106
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.8
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 35, epsilon = 0.7034
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 36, epsilon = 0.6964
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 37, epsilon = 0.6894
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 38, epsilon = 0.6826
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 18.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 39, epsilon = 0.6757
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 40, epsilon = 0.6690
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 41, epsilon = 0.6623
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 42, epsilon = 0.6557
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.8
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 43, epsilon = 0.6491
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 44, epsilon = 0.6426
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 45, epsilon = 0.6362
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 46, epsilon = 0.6298
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 47, epsilon = 0.6235
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 48, epsilon = 0.6173
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -1.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 49, epsilon = 0.6111
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 50, epsilon = 0.6050
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 51, epsilon = 0.5990
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.8
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 52, epsilon = 0.5930
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -21.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 53, epsilon = 0.5870
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 54, epsilon = 0.5812
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 55, epsilon = 0.5754
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 56, epsilon = 0.5696
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 57, epsilon = 0.5639
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 58, epsilon = 0.5583
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 59, epsilon = 0.5527
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 60, epsilon = 0.5472
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 61, epsilon = 0.5417
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.8
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 62, epsilon = 0.5363
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 18.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 63, epsilon = 0.5309
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 64, epsilon = 0.5256
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 65, epsilon = 0.5203
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 66, epsilon = 0.5151
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -1.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 67, epsilon = 0.5100
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -1.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 68, epsilon = 0.5049
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 69, epsilon = 0.4998
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.3
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 70, epsilon = 0.4948
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 71, epsilon = 0.4899
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 72, epsilon = 0.4850
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 73, epsilon = 0.4801
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 18.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 74, epsilon = 0.4753
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 75, epsilon = 0.4706
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 76, epsilon = 0.4659
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 77, epsilon = 0.4612
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 78, epsilon = 0.4566
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 79, epsilon = 0.4520
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -1.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 80, epsilon = 0.4475
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 81, epsilon = 0.4430
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 82, epsilon = 0.4386
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -1.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 83, epsilon = 0.4342
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 84, epsilon = 0.4299
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.8
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 85, epsilon = 0.4256
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 86, epsilon = 0.4213
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 87, epsilon = 0.4171
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 88, epsilon = 0.4129
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -1.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 89, epsilon = 0.4088
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 18.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 90, epsilon = 0.4047
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 91, epsilon = 0.4007
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 92, epsilon = 0.3967
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 93, epsilon = 0.3927
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 94, epsilon = 0.3888
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 95, epsilon = 0.3849
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 96, epsilon = 0.3810
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 97, epsilon = 0.3772
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 98, epsilon = 0.3735
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 99, epsilon = 0.3697
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 100, epsilon = 0.3660
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 101, epsilon = 0.3624
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 102, epsilon = 0.3587
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.8
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 103, epsilon = 0.3552
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 104, epsilon = 0.3516
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 105, epsilon = 0.3481
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 106, epsilon = 0.3446
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 107, epsilon = 0.3412
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 108, epsilon = 0.3378
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.8
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 109, epsilon = 0.3344
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 110, epsilon = 0.3310
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -1.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 111, epsilon = 0.3277
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 112, epsilon = 0.3244
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 113, epsilon = 0.3212
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -1.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 114, epsilon = 0.3180
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 115, epsilon = 0.3148
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 116, epsilon = 0.3117
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 117, epsilon = 0.3085
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 118, epsilon = 0.3055
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 119, epsilon = 0.3024
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 120, epsilon = 0.2994
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 121, epsilon = 0.2964
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.8
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 122, epsilon = 0.2934
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 123, epsilon = 0.2905
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 124, epsilon = 0.2876
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 125, epsilon = 0.2847
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.8
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 126, epsilon = 0.2819
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 127, epsilon = 0.2790
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 128, epsilon = 0.2763
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 129, epsilon = 0.2735
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.8
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 130, epsilon = 0.2708
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 131, epsilon = 0.2680
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 132, epsilon = 0.2654
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 133, epsilon = 0.2627
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 134, epsilon = 0.2601
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 135, epsilon = 0.2575
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 136, epsilon = 0.2549
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 137, epsilon = 0.2524
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 138, epsilon = 0.2498
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 139, epsilon = 0.2473
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.8
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 140, epsilon = 0.2449
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 18.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 141, epsilon = 0.2424
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 142, epsilon = 0.2400
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 143, epsilon = 0.2376
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 144, epsilon = 0.2352
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.8
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 145, epsilon = 0.2329
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 146, epsilon = 0.2305
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 147, epsilon = 0.2282
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 148, epsilon = 0.2259
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 149, epsilon = 0.2237
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 150, epsilon = 0.2215
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 151, epsilon = 0.2192
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 152, epsilon = 0.2170
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 153, epsilon = 0.2149
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 154, epsilon = 0.2127
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 155, epsilon = 0.2106
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 156, epsilon = 0.2085
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -21.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 157, epsilon = 0.2064
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 158, epsilon = 0.2043
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 159, epsilon = 0.2023
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 160, epsilon = 0.2003
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 161, epsilon = 0.1983
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -1.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 162, epsilon = 0.1963
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -21.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 163, epsilon = 0.1943
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 164, epsilon = 0.1924
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 165, epsilon = 0.1905
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 166, epsilon = 0.1886
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 167, epsilon = 0.1867
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 168, epsilon = 0.1848
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 169, epsilon = 0.1830
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 18.8
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 170, epsilon = 0.1811
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 171, epsilon = 0.1793
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -1.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 172, epsilon = 0.1775
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 173, epsilon = 0.1757
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 174, epsilon = 0.1740
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 18.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 175, epsilon = 0.1722
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 176, epsilon = 0.1705
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 177, epsilon = 0.1688
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -1.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 178, epsilon = 0.1671
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 179, epsilon = 0.1655
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 180, epsilon = 0.1638
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.3
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 181, epsilon = 0.1622
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 182, epsilon = 0.1605
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 183, epsilon = 0.1589
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 184, epsilon = 0.1574
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 185, epsilon = 0.1558
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 186, epsilon = 0.1542
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 187, epsilon = 0.1527
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 188, epsilon = 0.1512
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -1.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 189, epsilon = 0.1496
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 190, epsilon = 0.1481
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 191, epsilon = 0.1467
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -0.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 192, epsilon = 0.1452
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 193, epsilon = 0.1437
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 194, epsilon = 0.1423
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 195, epsilon = 0.1409
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 196, epsilon = 0.1395
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 197, epsilon = 0.1381
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 198, epsilon = 0.1367
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -11.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 199, epsilon = 0.1353
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 200, epsilon = 0.1340
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 201, epsilon = 0.1326
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 202, epsilon = 0.1313
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 203, epsilon = 0.1300
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 204, epsilon = 0.1287
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 205, epsilon = 0.1274
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 206, epsilon = 0.1261
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -1.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 207, epsilon = 0.1249
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 208, epsilon = 0.1236
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -1.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 209, epsilon = 0.1224
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 210, epsilon = 0.1212
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 211, epsilon = 0.1200
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 212, epsilon = 0.1188
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 213, epsilon = 0.1176
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 214, epsilon = 0.1164
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 215, epsilon = 0.1152
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 216, epsilon = 0.1141
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 217, epsilon = 0.1129
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 218, epsilon = 0.1118
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 18.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 219, epsilon = 0.1107
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 220, epsilon = 0.1096
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 221, epsilon = 0.1085
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 222, epsilon = 0.1074
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -0.8
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 223, epsilon = 0.1063
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 224, epsilon = 0.1053
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 225, epsilon = 0.1042
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 226, epsilon = 0.1032
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 227, epsilon = 0.1021
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 228, epsilon = 0.1011
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 229, epsilon = 0.1001
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -1.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 230, epsilon = 0.0991
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -0.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 231, epsilon = 0.0981
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 232, epsilon = 0.0971
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -10.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 233, epsilon = 0.0962
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 234, epsilon = 0.0952
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 235, epsilon = 0.0942
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 236, epsilon = 0.0933
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 237, epsilon = 0.0924
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 238, epsilon = 0.0914
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 239, epsilon = 0.0905
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 240, epsilon = 0.0896
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 241, epsilon = 0.0887
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -1.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 242, epsilon = 0.0878
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 243, epsilon = 0.0870
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 244, epsilon = 0.0861
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 245, epsilon = 0.0852
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 246, epsilon = 0.0844
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 247, epsilon = 0.0835
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -1.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 248, epsilon = 0.0827
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 249, epsilon = 0.0819
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 250, epsilon = 0.0811
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 251, epsilon = 0.0802
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 252, epsilon = 0.0794
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 253, epsilon = 0.0787
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 254, epsilon = 0.0779
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 255, epsilon = 0.0771
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 19.1

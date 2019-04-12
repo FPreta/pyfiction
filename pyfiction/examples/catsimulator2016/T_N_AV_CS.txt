@@ -1,0 +1,1303 @@
+INFO:pyfiction.agents.ssaqn_agent:Initializing tokens by loading them from vocabulary.txt
+INFO:pyfiction.agents.ssaqn_agent:Tokenizer: 364 words - {'the': 1, 'i': 2, 'a': 3, 'to': 4, 'it': 5, 'in': 6, "'s": 7, 'there': 8, 'my': 9, 'not': 10, 'on': 11, 'like': 12, 'of': 13, 'this': 14, 'sam': 15, 'could': 16, 'out': 17, 'am': 18, 'and': 19, 'do': 20, 'nice': 21, 'as': 22, 'get': 23, 'have': 24, 'chair': 25, 'but': 26, 'tree': 27, 'rug': 28, 'here': 29, 'looks': 30, 'under': 31, 'see': 32, 'that': 33, 'place': 34, 'does': 35, 'although': 36, 'be': 37, 'kitchen': 38, 'for': 39, 'try': 40, 'good': 41, 'yard': 42, 'is': 43, 'favorite': 44, 'corner': 45, 'colorfully': 46, 'decorated': 47, 'ledge': 48, 'looking': 49, 'me': 50, 'let': 51, 'back': 52, 'up': 53, 'spot': 54, 'right': 55, 'with': 56, 'head': 57, 'by': 58, 'one': 59, 'living': 60, 'room': 61, 'can': 62, 'food': 63, 'so': 64, 'search': 65, 'begins': 66, 'seems': 67, 'start': 68, 'lie': 69, 'then': 70, 'always': 71, 'also': 72, 'somewhere': 73, 'its': 74, 'sometimes': 75, 'just': 76, 'actually': 77, 'counter': 78, 'jump': 79, 'quest': 80, 'rest': 81, 'what': 82, 'or': 83, 'oh': 84, 'stool': 85, 'bird': 86, 'sleep': 87, 'know': 88, 'how': 89, 'napping': 90, 'backyard': 91, 'take': 92, 'where': 93, 'human': 94, 'door': 95, 'time': 96, 'nap': 97, 'about': 98, 'never': 99, 'around': 100, 'through': 101, 'patio': 102, 'hand': 103, 'from': 104, 'trying': 105, 'way': 106, 'now': 107, "it'd": 108, 'snack': 109, 'walk': 110, 'anywhere': 111, 'look': 112, 'gonna': 113, 'getting': 114, 'keeps': 115, 'track': 116, 'disadvantages': 117, 'well': 118, 'alternatively': 119, 'cozy': 120, 'bear': 121, 'when': 122, 'charge': 123, 'failing': 124, 'outside': 125, 'should': 126, 'will': 127, 'which': 128, 'task': 129, 'at': 130, 'firm': 131, 'shady': 132, 'tried': 133, 'before': 134, 'has': 135, 'cat': 136, 'simulator': 137, '2': 138, '0': 139, '1': 140, '6': 141, 'written': 142, 'helado': 143, 'de': 144, 'brownie': 145, 'mel': 146, 'pride': 147, 'pretty': 148, 'big': 149, 'deal': 150, 'protect': 151, 'calls': 152, 'itself': 153, 'against': 154, 'intruders': 155, 'such': 156, 'birds': 157, 'keep': 158, 'solid': 159, 'air': 160, 'dividing': 161, 'inside': 162, 'much': 163, 'pains': 164, 'though': 165, 'gotta': 166, 'break': 167, 'story': 168, 'are': 169, 'energy': 170, 'over': 171, "i'd": 172, 'rather': 173, 'needles': 174, 'fur': 175, 'think': 176, 'nah': 177, 'feeling': 178, 'today': 179, 'bunch': 180, 'was': 181, 'all': 182, 'long': 183, 'if': 184, 'trash': 185, 'maybe': 186, 'hunter': 187, 'silently': 188, 'sink': 189, 'left': 190, 'pounce': 191, 'wiggle': 192, 'feel': 193, 'ignore': 194, 'off': 195, 'again': 196, 'leap': 197, 'straight': 198, 'meal': 199, 'into': 200, 'reason': 201, 'smells': 202, 'kind': 203, 'muddy': 204, 'ick': 205, 'sticks': 206, 'moving': 207, 'pursue': 208, 'matter': 209, 'top': 210, 'slink': 211, 'butt': 212, 'catch': 213, 'route': 214, 'did': 215, 'far': 216, 'end': 217, 'make': 218, 'might': 219, 'fall': 220, 'catflap': 221, 'garden': 222, 'bet': 223, 'kinds': 224, 'places': 225, 'something': 226, 'move': 227, 'senses': 228, 'sharpen': 229, 'body': 230, 'high': 231, 'alert': 232, 'saw': 233, 'wait': 234, 'nothing': 235, 'last': 236, 'along': 237, 'other': 238, 'best': 239, 'after': 240, 'more': 241, 'great': 242, 'remains': 243, 'towards': 244, 'noticed': 245, 'yet': 246, 'play': 247, 'approach': 248, 'sly': 249, 'who': 250, 'sure': 251, 'ready': 252, 'flies': 253, 'no': 254, 'must': 255, 'patch': 256, 'grass': 257, 'kinda': 258, 'branch': 259, 'find': 260, 'stealthy': 261, 'forget': 262, 'you': 263, 'okay': 264, 'consider': 265, 'options': 266, 'lies': 267, 'next': 268, 'stove': 269, 'put': 270, 'junk': 271, 'boxes': 272, 'knowing': 273, 'go': 274, 'involves': 275, 'past': 276, 'very': 277, 'unpleasant': 278, 'mind': 279, 'remembered': 280, 'got': 281, 'fleas': 282, 'slept': 283, 'finish': 284, 'edge': 285, 'aha': 286, 'blackbird': 287, 'ground': 288, 'warning': 289, 'graphic': 290, 'imagery': 291, 'would': 292, 'effective': 293, 'really': 294, 'mood': 295, 'wanna': 296, 'window': 297, 'nearest': 298, 'mere': 299, 'feet': 300, 'changes': 301, 'direction': 302, 'prey': 303, 'scurry': 304, 'fence': 305, 'eventually': 306, 'arriving': 307, 'neighbor': 308, 'retreats': 309, 'tall': 310, 'once': 311, 'until': 312, 'reach': 313, 'nest': 314, 'we': 315, 'stare': 316, 'each': 317, 'down': 318, 'means': 319, 'business': 320, 'because': 321, 'protecting': 322, 'eggs': 323, 'ultimate': 324, 'question': 325, 'longest': 326, 'journey': 327, 'climb': 328, 'onto': 329, 'destination': 330, 'various': 331, 'chip': 332, 'bags': 333, 'dangerous': 334, 'part': 335, 'either': 336, 'daring': 337, 'stand': 338, 'little': 339, 'nervous': 340, 'cause': 341, 'choose': 342, 'own': 343, 'naps': 344, 'woops': 345, 'short': 346, 'plopping': 347, 'failed': 348, 'terrible': 349, 'thought': 350, 'makes': 351, 'soft': 352, 'pile': 353, 'tired': 354, 'enough': 355, 'ideal': 356, 'contemplate': 357, 'wonder': 358, 'why': 359, 'attempting': 360, 'want': 361, 'realize': 362, 'logic': 363, 'aside': 364}
+INFO:pyfiction.agents.ssaqn_agent:Creating a model based on 364 unique tokens.
+WARNING:__main__:Couldn't print the model image: Failed to import pydot. You must install pydot and graphviz for `pydotprint` to work.
+INFO:__main__:Epoch 0
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 0, epsilon = 1.0000
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -20.8
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.3
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 1, epsilon = 0.9900
+INFO:pyfiction.agents.ssaqn_agent:New unique positive experience - total 1.
+Reward: 20.0, state:  
+friendship
+i meow inquisitively at the bird 
+
+it cocks its hea...
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 18.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.4
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 2, epsilon = 0.9801
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.4
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 3, epsilon = 0.9703
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -20.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.4
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 4, epsilon = 0.9606
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -20.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.4
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 5, epsilon = 0.9510
+INFO:pyfiction.agents.ssaqn_agent:New unique positive experience - total 2.
+Reward: 10.0, state:  
+serendipity
+i curl up and realize that woah  yeah  this is act...
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.4
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 6, epsilon = 0.9415
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.4
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 7, epsilon = 0.9321
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.4
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 8, epsilon = 0.9227
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 8.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 9, epsilon = 0.9135
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -0.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.4
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 10, epsilon = 0.9044
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -0.3
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.4
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 11, epsilon = 0.8953
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -21.3
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.4
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 12, epsilon = 0.8864
+INFO:pyfiction.agents.ssaqn_agent:New unique positive experience - total 3.
+Reward: 10.0, state:  
+not this time  water
+i gracefully and invincibly glide over th...
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.4
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 13, epsilon = 0.8775
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -20.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.4
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 14, epsilon = 0.8687
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -0.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 15, epsilon = 0.8601
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -20.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 16, epsilon = 0.8515
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -20.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 17, epsilon = 0.8429
+INFO:pyfiction.agents.ssaqn_agent:New unique positive experience - total 4.
+Reward: 10.0, state:  
+mine 
+i go straight for the kill  ripping the sorry creature t...
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.3
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 18, epsilon = 0.8345
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 19, epsilon = 0.8262
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 20, epsilon = 0.8179
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 21, epsilon = 0.8097
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -21.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 22, epsilon = 0.8016
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -20.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.4
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 23, epsilon = 0.7936
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.3
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 24, epsilon = 0.7857
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 25, epsilon = 0.7778
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 18.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.4
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 26, epsilon = 0.7700
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 27, epsilon = 0.7623
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 28, epsilon = 0.7547
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 29, epsilon = 0.7472
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -20.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 30, epsilon = 0.7397
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -20.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 31, epsilon = 0.7323
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 32, epsilon = 0.7250
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -0.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 33, epsilon = 0.7177
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 34, epsilon = 0.7106
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 35, epsilon = 0.7034
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 36, epsilon = 0.6964
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 37, epsilon = 0.6894
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -21.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 38, epsilon = 0.6826
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -20.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 39, epsilon = 0.6757
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -0.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 40, epsilon = 0.6690
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -0.3
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 41, epsilon = 0.6623
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -21.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 42, epsilon = 0.6557
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.3
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 43, epsilon = 0.6491
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.3
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 44, epsilon = 0.6426
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.3
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 45, epsilon = 0.6362
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -21.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 46, epsilon = 0.6298
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 47, epsilon = 0.6235
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 48, epsilon = 0.6173
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -0.3
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 49, epsilon = 0.6111
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -0.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 50, epsilon = 0.6050
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 51, epsilon = 0.5990
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 18.9
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 52, epsilon = 0.5930
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 53, epsilon = 0.5870
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -20.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 54, epsilon = 0.5812
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 55, epsilon = 0.5754
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -0.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 56, epsilon = 0.5696
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -0.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 57, epsilon = 0.5639
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 58, epsilon = 0.5583
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -0.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 59, epsilon = 0.5527
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 60, epsilon = 0.5472
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 61, epsilon = 0.5417
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 62, epsilon = 0.5363
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 63, epsilon = 0.5309
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 64, epsilon = 0.5256
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 65, epsilon = 0.5203
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 66, epsilon = 0.5151
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 67, epsilon = 0.5100
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 68, epsilon = 0.5049
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 69, epsilon = 0.4998
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 70, epsilon = 0.4948
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 71, epsilon = 0.4899
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 8.8
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 72, epsilon = 0.4850
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.3
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 73, epsilon = 0.4801
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -20.7
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 74, epsilon = 0.4753
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -0.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 75, epsilon = 0.4706
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 76, epsilon = 0.4659
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 77, epsilon = 0.4612
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 78, epsilon = 0.4566
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 79, epsilon = 0.4520
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 80, epsilon = 0.4475
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 81, epsilon = 0.4430
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 82, epsilon = 0.4386
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 83, epsilon = 0.4342
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 84, epsilon = 0.4299
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 85, epsilon = 0.4256
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 86, epsilon = 0.4213
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 87, epsilon = 0.4171
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 88, epsilon = 0.4129
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 89, epsilon = 0.4088
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -20.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 90, epsilon = 0.4047
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -20.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 91, epsilon = 0.4007
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 92, epsilon = 0.3967
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 93, epsilon = 0.3927
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 94, epsilon = 0.3888
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -20.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 95, epsilon = 0.3849
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 96, epsilon = 0.3810
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 97, epsilon = 0.3772
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 98, epsilon = 0.3735
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 99, epsilon = 0.3697
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -0.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 100, epsilon = 0.3660
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 19.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 101, epsilon = 0.3624
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 102, epsilon = 0.3587
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 103, epsilon = 0.3552
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 104, epsilon = 0.3516
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 105, epsilon = 0.3481
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 106, epsilon = 0.3446
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 107, epsilon = 0.3412
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 108, epsilon = 0.3378
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -0.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 109, epsilon = 0.3344
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 110, epsilon = 0.3310
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 111, epsilon = 0.3277
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 112, epsilon = 0.3244
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 113, epsilon = 0.3212
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -20.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 114, epsilon = 0.3180
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 115, epsilon = 0.3148
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 116, epsilon = 0.3117
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 117, epsilon = 0.3085
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 118, epsilon = 0.3055
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 119, epsilon = 0.3024
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 120, epsilon = 0.2994
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 121, epsilon = 0.2964
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 122, epsilon = 0.2934
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 123, epsilon = 0.2905
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 124, epsilon = 0.2876
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 125, epsilon = 0.2847
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 126, epsilon = 0.2819
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 127, epsilon = 0.2790
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -0.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 128, epsilon = 0.2763
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 129, epsilon = 0.2735
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 130, epsilon = 0.2708
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -0.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 131, epsilon = 0.2680
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 132, epsilon = 0.2654
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 133, epsilon = 0.2627
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 134, epsilon = 0.2601
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 135, epsilon = 0.2575
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 136, epsilon = 0.2549
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -0.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 137, epsilon = 0.2524
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 138, epsilon = 0.2498
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -0.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 139, epsilon = 0.2473
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 140, epsilon = 0.2449
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 141, epsilon = 0.2424
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 142, epsilon = 0.2400
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -0.3
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 143, epsilon = 0.2376
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 144, epsilon = 0.2352
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.3
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 145, epsilon = 0.2329
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 146, epsilon = 0.2305
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 147, epsilon = 0.2282
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 148, epsilon = 0.2259
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 149, epsilon = 0.2237
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 150, epsilon = 0.2215
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 151, epsilon = 0.2192
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 152, epsilon = 0.2170
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 153, epsilon = 0.2149
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 154, epsilon = 0.2127
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 155, epsilon = 0.2106
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 156, epsilon = 0.2085
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 157, epsilon = 0.2064
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 158, epsilon = 0.2043
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 159, epsilon = 0.2023
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -0.3
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 160, epsilon = 0.2003
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 161, epsilon = 0.1983
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 162, epsilon = 0.1963
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 163, epsilon = 0.1943
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 164, epsilon = 0.1924
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 165, epsilon = 0.1905
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 166, epsilon = 0.1886
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 167, epsilon = 0.1867
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 168, epsilon = 0.1848
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 169, epsilon = 0.1830
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 170, epsilon = 0.1811
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 171, epsilon = 0.1793
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 172, epsilon = 0.1775
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -0.3
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 173, epsilon = 0.1757
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 174, epsilon = 0.1740
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 175, epsilon = 0.1722
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 176, epsilon = 0.1705
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 177, epsilon = 0.1688
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 178, epsilon = 0.1671
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 179, epsilon = 0.1655
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 180, epsilon = 0.1638
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 181, epsilon = 0.1622
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 182, epsilon = 0.1605
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 183, epsilon = 0.1589
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 184, epsilon = 0.1574
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 185, epsilon = 0.1558
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 186, epsilon = 0.1542
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 187, epsilon = 0.1527
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -0.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 188, epsilon = 0.1512
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 189, epsilon = 0.1496
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 190, epsilon = 0.1481
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.0
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 191, epsilon = 0.1467
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 192, epsilon = 0.1452
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 193, epsilon = 0.1437
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 194, epsilon = 0.1423
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 195, epsilon = 0.1409
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 196, epsilon = 0.1395
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 197, epsilon = 0.1381
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 198, epsilon = 0.1367
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 199, epsilon = 0.1353
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 200, epsilon = 0.1340
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 201, epsilon = 0.1326
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 202, epsilon = 0.1313
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 203, epsilon = 0.1300
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 204, epsilon = 0.1287
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 205, epsilon = 0.1274
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 206, epsilon = 0.1261
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 207, epsilon = 0.1249
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 208, epsilon = 0.1236
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 209, epsilon = 0.1224
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 210, epsilon = 0.1212
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -20.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 211, epsilon = 0.1200
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 212, epsilon = 0.1188
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 213, epsilon = 0.1176
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 214, epsilon = 0.1164
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 215, epsilon = 0.1152
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 216, epsilon = 0.1141
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 217, epsilon = 0.1129
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -0.3
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 218, epsilon = 0.1118
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 219, epsilon = 0.1107
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 220, epsilon = 0.1096
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 221, epsilon = 0.1085
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 222, epsilon = 0.1074
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 223, epsilon = 0.1063
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 224, epsilon = 0.1053
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 225, epsilon = 0.1042
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 226, epsilon = 0.1032
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 227, epsilon = 0.1021
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 228, epsilon = 0.1011
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 229, epsilon = 0.1001
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 230, epsilon = 0.0991
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 231, epsilon = 0.0981
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 232, epsilon = 0.0971
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 233, epsilon = 0.0962
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 234, epsilon = 0.0952
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 235, epsilon = 0.0942
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 236, epsilon = 0.0933
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 237, epsilon = 0.0924
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 238, epsilon = 0.0914
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 239, epsilon = 0.0905
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 240, epsilon = 0.0896
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.1
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 241, epsilon = 0.0887
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 242, epsilon = 0.0878
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 243, epsilon = 0.0870
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 244, epsilon = 0.0861
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 245, epsilon = 0.0852
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 246, epsilon = 0.0844
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 247, epsilon = 0.0835
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 248, epsilon = 0.0827
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: -0.2
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 249, epsilon = 0.0819
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 250, epsilon = 0.0811
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.4
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 251, epsilon = 0.0802
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 252, epsilon = 0.0794
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.5
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 253, epsilon = 0.0787
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 254, epsilon = 0.0779
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:
+------------------------------------------
+Episode 255, epsilon = 0.0771
+INFO:pyfiction.agents.ssaqn_agent:Train rewards: 9.6
+INFO:pyfiction.agents.ssaqn_agent:Test rewards: 9.6
